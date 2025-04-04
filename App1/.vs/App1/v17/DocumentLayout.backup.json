@@ -1,42 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\",
+  "WorkspaceRootPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\pricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\pricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\model\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\profitcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\profitcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\calina\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:calina\\route.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\fabi\\desktop\\softwareengineering\\app1\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\model\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\road.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +70,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\Graph.cs",
-              "RelativeDocumentMoniker": "Model\\Graph.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\Graph.cs",
-              "RelativeToolTip": "Model\\Graph.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "mainViewModel.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainViewModel.cs",
+              "RelativeDocumentMoniker": "Calina\\mainViewModel.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainViewModel.cs",
+              "RelativeToolTip": "Calina\\mainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:41:12.961Z",
+              "WhenOpened": "2025-04-04T13:59:45.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainWindow.xaml",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainWindow.xaml",
+              "RelativeDocumentMoniker": "Calina\\mainWindow.xaml",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainWindow.xaml",
+              "RelativeToolTip": "Calina\\mainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T13:59:06.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Calina\\mainWindow.xaml.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\mainWindow.xaml.cs",
+              "RelativeToolTip": "Calina\\mainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:57:20.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pricingCalculator.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\pricingCalculator.cs",
+              "RelativeDocumentMoniker": "Calina\\pricingCalculator.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\pricingCalculator.cs",
+              "RelativeToolTip": "Calina\\pricingCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:56:38.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "profitCalculator.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\profitCalculator.cs",
+              "RelativeDocumentMoniker": "Calina\\profitCalculator.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\profitCalculator.cs",
+              "RelativeToolTip": "Calina\\profitCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:55:30.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "route.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\route.cs",
+              "RelativeDocumentMoniker": "Calina\\route.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Calina\\route.cs",
+              "RelativeToolTip": "Calina\\route.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:54:40.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Road.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\Road.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\Road.cs",
               "RelativeDocumentMoniker": "Model\\Road.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\Road.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\Road.cs",
               "RelativeToolTip": "Model\\Road.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,11 +165,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\City.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\City.cs",
               "RelativeDocumentMoniker": "Model\\City.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\Model\\City.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\City.cs",
               "RelativeToolTip": "Model\\City.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,78 +178,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "GraphView.xaml",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\GraphView.xaml",
+              "RelativeDocumentMoniker": "GraphView.xaml",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\GraphView.xaml",
+              "RelativeToolTip": "GraphView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-02T07:38:52.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\app.manifest",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\app.manifest",
               "RelativeDocumentMoniker": "app.manifest",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\app.manifest",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\app.manifest",
               "RelativeToolTip": "app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-04-02T07:39:09.671Z"
+              "WhenOpened": "2025-04-02T07:39:09.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAjwCQAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "GraphView.xaml.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\GraphView.xaml.cs",
+              "RelativeDocumentMoniker": "GraphView.xaml.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\GraphView.xaml.cs",
+              "RelativeToolTip": "GraphView.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvywAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T07:38:54.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "App.g.i.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
               "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
               "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\App.g.i.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAewEQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T13:18:48.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\Graph.cs",
+              "RelativeDocumentMoniker": "Model\\Graph.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Model\\Graph.cs",
+              "RelativeToolTip": "Model\\Graph.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T07:38:50.251Z"
+              "WhenOpened": "2025-04-03T19:41:12.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:38:50.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App.xaml",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App.xaml",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-02T07:38:43.823Z"
+              "WhenOpened": "2025-04-02T07:38:43.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 342,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 68,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

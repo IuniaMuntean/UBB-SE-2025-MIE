@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj": {}
+    "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj": {
+    "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj",
+        "projectUniqueName": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj",
-        "packagesPath": "C:\\Users\\Fabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\obj\\",
+        "projectPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj",
+        "packagesPath": "C:\\Users\\MyLenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MyLenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,6 +58,10 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.7.250310001, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [

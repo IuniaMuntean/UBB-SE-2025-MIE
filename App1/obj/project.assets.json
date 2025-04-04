@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-windows10.0.19041": {
+      "linq2db/5.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "build": {
@@ -180,6 +193,19 @@
       }
     },
     "net8.0-windows10.0.19041/win-arm64": {
+      "linq2db/5.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "native": {
@@ -317,6 +343,19 @@
       }
     },
     "net8.0-windows10.0.19041/win-x64": {
+      "linq2db/5.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "native": {
@@ -454,6 +493,19 @@
       }
     },
     "net8.0-windows10.0.19041/win-x86": {
+      "linq2db/5.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/linq2db.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2903.40": {
         "type": "package",
         "native": {
@@ -592,6 +644,34 @@
     }
   },
   "libraries": {
+    "linq2db/5.4.1": {
+      "sha512": "qyH32MbFK6T55KsEcQYTbPFfkOa1Mo65lY/Zo8SFVMy0pwkQBCTnA/RUxyG5+l3D/mgfPz85PH3upDrtklSMrw==",
+      "type": "package",
+      "path": "linq2db/5.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MIT-LICENSE.txt",
+        "README.md",
+        "images/icon.png",
+        "lib/net45/linq2db.dll",
+        "lib/net45/linq2db.xml",
+        "lib/net46/linq2db.dll",
+        "lib/net46/linq2db.xml",
+        "lib/net472/linq2db.dll",
+        "lib/net472/linq2db.xml",
+        "lib/net6.0/linq2db.dll",
+        "lib/net6.0/linq2db.xml",
+        "lib/netcoreapp3.1/linq2db.dll",
+        "lib/netcoreapp3.1/linq2db.xml",
+        "lib/netstandard2.0/linq2db.dll",
+        "lib/netstandard2.0/linq2db.xml",
+        "lib/netstandard2.1/linq2db.dll",
+        "lib/netstandard2.1/linq2db.xml",
+        "linq2db.5.4.1.nupkg.sha512",
+        "linq2db.nuspec"
+      ]
+    },
     "Microsoft.Web.WebView2/1.0.2903.40": {
       "sha512": "THrzYAnJgE3+cNH+9Epr44XjoZoRELdVpXlWGPs6K9C9G6TqyDfVCeVAR/Er8ljLitIUX5gaSkPsy9wRhD1sgQ==",
       "type": "package",
@@ -1438,27 +1518,28 @@
   "projectFileDependencyGroups": {
     "net8.0-windows10.0.19041": [
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.1742",
-      "Microsoft.WindowsAppSDK >= 1.7.250310001"
+      "Microsoft.WindowsAppSDK >= 1.7.250310001",
+      "linq2db >= 5.4.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fabi\\.nuget\\packages\\": {},
+    "C:\\Users\\MyLenovo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj",
+      "projectUniqueName": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\App1.csproj",
-      "packagesPath": "C:\\Users\\Fabi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fabi\\Desktop\\SoftwareEngineering\\App1\\obj\\",
+      "projectPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App1.csproj",
+      "packagesPath": "C:\\Users\\MyLenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Fabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MyLenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1499,6 +1580,10 @@
           "Microsoft.WindowsAppSDK": {
             "target": "Package",
             "version": "[1.7.250310001, )"
+          },
+          "linq2db": {
+            "target": "Package",
+            "version": "[5.4.1, )"
           }
         },
         "imports": [
