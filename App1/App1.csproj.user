@@ -5,11 +5,28 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Vlad\VladWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Toma\TomaWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Geo\BlankWindow1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Calina\ProfitCalc.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <None Update="GraphView.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

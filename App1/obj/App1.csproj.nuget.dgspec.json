@@ -51,6 +51,14 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "BCrypt.Net": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
               "version": "[10.0.26100.1742, )"
@@ -58,6 +66,14 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.7.250310001, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             },
             "linq2db": {
               "target": "Package",
