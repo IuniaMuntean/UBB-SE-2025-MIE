@@ -10,6 +10,15 @@ namespace App1.SQL_Scripts
 {
     internal class DBSync
     {
+        /*
+         * Class for updating the database with new tables - MIT
+         * Instructions:
+         *      In Scripts.sql, add the create table querie(s) for the new table(s). 
+         *      MUST HAVE ; AFTER EACH QUERIE
+         *      On line 32, add the full path for Scripts.sql (where it's saved on your device) 
+         *  The syncDB() function will run on app start up (from App.xaml.cs, line 19)
+        */
+
         private static string connectionString = "Host=localhost;" +
                                    "Port=5432;" +
                                    "Database=postgres;" +
@@ -20,9 +29,8 @@ namespace App1.SQL_Scripts
             using NpgsqlConnection connection = new NpgsqlConnection(connectionString);
             connection.Open();
 
-            //var baseDirectoryPath = AppDomain.CurrentDomain.BaseDirectory;
-            //var filePath = Path.Combine(baseDirectoryPath, "Scripts.sql");
             string sqlScript = File.ReadAllText("D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+            // D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql
 
             string[] createTableQueries = sqlScript.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
 

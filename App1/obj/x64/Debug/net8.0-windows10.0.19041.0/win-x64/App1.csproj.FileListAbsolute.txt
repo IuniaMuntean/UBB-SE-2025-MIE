@@ -538,7 +538,6 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.1425.11118.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
@@ -567,3 +566,4 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.1525.16413.dll

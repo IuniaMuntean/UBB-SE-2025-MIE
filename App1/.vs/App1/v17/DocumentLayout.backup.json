@@ -29,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,10 +48,9 @@
               "RelativeDocumentMoniker": "App.xaml.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:58:29.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T19:58:29.226Z"
             },
             {
               "$type": "Document",
@@ -65,7 +60,7 @@
               "RelativeDocumentMoniker": "SQL Scripts\\DBSync.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
               "RelativeToolTip": "SQL Scripts\\DBSync.cs",
-              "ViewState": "AgIAAAoAAABAZmZmZmYUwBgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T19:46:00.007Z",
               "EditorCaption": ""
@@ -73,14 +68,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Scripts.sql ",
+              "Title": "Scripts.sql",
               "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeDocumentMoniker": "SQL Scripts\\Scripts.sql",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeToolTip": "SQL Scripts\\Scripts.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-06T19:34:38.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T19:34:38.758Z"
             },
             {
               "$type": "Document",
@@ -90,7 +84,7 @@
               "RelativeDocumentMoniker": "Razvan\\Model\\User.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Model\\User.cs",
               "RelativeToolTip": "Razvan\\Model\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T19:43:45.195Z"
             },
@@ -102,7 +96,7 @@
               "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
               "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADUAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAMBdwDUAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T19:28:52.602Z"
             },
@@ -126,7 +120,7 @@
               "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
               "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAA+wCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T18:49:35.354Z"
             }
