@@ -1,57 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Window
     x:Class="App1.Geo.DeliveryInfo"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:App1.Geo"
+    xmlns:model="using:App1.Geo.Model"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="Delivery Info">
+    Title="Delivery Info"
+    Width="800" Height="600">
     <Grid Padding="20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*" />
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
-        <!--<StackPanel Grid.Column="0" Spacing="10" VerticalAlignment="Top">
-            <TextBlock Text="ID:" />
-            <TextBlock Text="{x:Bind ViewModel.Id}" />
+        <StackPanel Grid.Column="0" Spacing="10" VerticalAlignment="Top">
+            <TextBlock Text="ID:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Id}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Manager:" />
-            <TextBlock Text="{x:Bind ViewModel.Manager}" />
+            <TextBlock Text="Manager:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Manager}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Departure:" />
-            <TextBlock Text="{x:Bind ViewModel.Departure}" />
+            <TextBlock Text="Departure:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Departure}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Destination:" />
-            <TextBlock Text="{x:Bind ViewModel.Destination}" />
+            <TextBlock Text="Destination:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Destination}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Distance:" />
-            <TextBlock Text="{x:Bind ViewModel.Distance}" />
+            <TextBlock Text="Client:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Client}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Driver:" />
-            <TextBlock Text="{x:Bind ViewModel.Driver}" />
+            <TextBlock Text="Driver:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Driver}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Departure Time:" />
-            <TextBlock Text="{x:Bind ViewModel.DepartureTime}" />
+            <TextBlock Text="Departure Time:" FontWeight="Bold" />
+            <TextBlock Text="{Binding GoTime}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Arrival Time:" />
-            <TextBlock Text="{x:Bind ViewModel.ArrivalTime}" />
+            <TextBlock Text="Arrival Time:" FontWeight="Bold" />
+            <TextBlock Text="{Binding ArrTime}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Truck ID:" />
-            <TextBlock Text="{x:Bind ViewModel.TruckId}" />
+            <TextBlock Text="Cargo Weight:" FontWeight="Bold" />
+            <TextBlock Text="{Binding Weight}" Margin="0,0,0,10" />
 
-            <TextBlock Text="Cargo Weight:" />
-            <TextBlock Text="{x:Bind ViewModel.CargoWeight}" />
-
-            <TextBlock Text="Cargo Status:" />
-            <TextBlock Text="{x:Bind ViewModel.CargoStatus}" />
-        </StackPanel>-->
+            <TextBlock Text="Cargo Type:" FontWeight="Bold" />
+            <TextBlock Text="{Binding CargoType}" Margin="0,0,0,10" />
+        </StackPanel>
 
         <StackPanel Grid.Column="1" Spacing="15" VerticalAlignment="Top">
-            <Button Content="Generate Route" />
-            <Button Content="Calculate Pricing" />
+            <Button Content="Generate Route" Click="GenerateRoute_Click" Margin="0,0,0,10" />
+            <Button Content="Calculate Pricing" Click="CalculatePricing_Click" Margin="0,0,0,10" />
+            <Button Content="Save Delivery" Click="SaveDelivery_Click" Background="Green" Foreground="White" />
         </StackPanel>
     </Grid>
 </Window>

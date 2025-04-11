@@ -31,5 +31,12 @@ CREATE TABLE orders
     source_city VARCHAR(100) NOT NULL,
     destination_city VARCHAR(100) NOT NULL
 )
+CREATE TABLE deliveries
+(
+    delivery_id SERIAL PRIMARY KEY,
+    order_id INT NOT NULL,
+    status VARCHAR(100) NOT NULL,
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+)
 
 

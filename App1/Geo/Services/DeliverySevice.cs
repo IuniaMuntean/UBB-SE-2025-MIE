@@ -20,5 +20,17 @@ namespace App1.Geo.Services
         {
             return await _context.Delivery.FindAsync(deliveryId);
         }
+
+
+        public async Task AddDelivery(Delivery delivery)
+        {
+            _context.Delivery.Add(delivery);
+            await _context.SaveChangesAsync();
+        }
+        public async Task DeleteDelivery(Delivery delivery)
+        {
+            _context.Delivery.Remove(delivery);
+            await _context.SaveChangesAsync();
+        }
     }
 }

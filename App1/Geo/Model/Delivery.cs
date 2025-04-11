@@ -14,25 +14,23 @@ namespace App1.Geo.Model
         [Column("Id")]
         public int Id { get; set; }
         [Column("Manager")]
-        public String Manager{ get; set; }
+        public string Manager{ get; set; }
         [Column("Departure")]
-        public String Departure { get; set; }
+        public string Departure { get; set; }
         [Column("Destination")]
-        public String Destination {  get; set; }
-        [Column("Distance")]
-        public int Distance {  get; set; }
+        public string Destination {  get; set; }
+        [Column("Client")]
+        public string Client { get; set; }
         [Column("Driver")]
-        public String Driver {  get; set; }
+        public string Driver {  get; set; }
         [Column("Departure_Time")]
-        public String GoTime { get; set; }
+        public string GoTime { get; set; }
         [Column("Arrival_Time")]
-        public String ArrTime { get; set; }
-        [Column("TruckId")]
-        public int Truck {  get; set; }
+        public string ArrTime { get; set; }
         [Column("Cargo_Weight")]
         public int Weight { get; set; }
-        [Column("Cargo_IDs")]
-        public string CargoIds { get; set; }  
+        [Column("Cargo_Type")]
+        public string CargoType {  get; set; }
 
     }
 }
