@@ -39,7 +39,7 @@
 
                             <Button Content="Update" Click="UpdateOrder_Click"/>
                             <Button Content="Delete" Click="DeleteOrder_Click"/>
-                            <Button Content="Generate Route" Click="GenerateRoute_Click"/>
+                            <Button Content="View Order" Click="GenerateRoute_Click"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>

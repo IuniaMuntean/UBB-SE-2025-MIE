@@ -22,11 +22,14 @@ create table roads
 	primary key (startCity, endCity)
 );
 
-CREATE TABLE orders (
+CREATE TABLE orders 
+(
     order_id SERIAL PRIMARY KEY,
     client_name VARCHAR(100) NOT NULL,
     cargo_type VARCHAR(100) NOT NULL,
     cargo_weight DECIMAL(10, 2) NOT NULL,
     source_city VARCHAR(100) NOT NULL,
     destination_city VARCHAR(100) NOT NULL
-);
+)
+
+

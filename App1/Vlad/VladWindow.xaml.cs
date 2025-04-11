@@ -73,7 +73,8 @@ namespace App1.Vlad
 
         private void GenerateRoute_Click(object sender, RoutedEventArgs e)
         {
-            // Already implemented route screen navigation
+            Geo.DeliveryInfo geoView = new Geo.DeliveryInfo();
+            geoView.Activate();
         }
     }
 }

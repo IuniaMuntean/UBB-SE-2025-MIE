@@ -13,7 +13,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Geo\BlankWindow1.xaml" />
     <None Remove="Razvan\Views\Dashboard.xaml" />
     <None Remove="Toma\TomaWindow.xaml" />
     <None Remove="Vlad\VladWindow.xaml" />
@@ -60,11 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Toma\TomaWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="Geo\BlankWindow1.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

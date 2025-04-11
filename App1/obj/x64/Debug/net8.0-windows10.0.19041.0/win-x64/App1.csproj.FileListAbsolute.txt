@@ -1,7 +1,7 @@
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.exe
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xbf
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\BlankWindow1.xbf
+C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xbf
@@ -246,8 +246,8 @@ C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-wi
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.g.i.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.g.cs
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\BlankWindow1.g.i.cs
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\BlankWindow1.g.cs
+C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.g.i.cs
+C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.g.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.g.i.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.g.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
@@ -265,7 +265,7 @@ C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-wi
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xaml
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\BlankWindow1.xaml
+C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xaml
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xaml
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xaml
@@ -275,7 +275,7 @@ C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-wi
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Vlad\VladWindow.xaml
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xbf
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\BlankWindow1.xbf
+C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
 C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xbf

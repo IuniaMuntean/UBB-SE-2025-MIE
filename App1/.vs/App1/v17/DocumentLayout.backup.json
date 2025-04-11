@@ -3,56 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\vladwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\vladwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\vlad\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\razvan\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\razvan\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -66,176 +22,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Razvan\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Model\\User.cs",
-              "RelativeToolTip": "Razvan\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DBSync.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
+              "RelativeDocumentMoniker": "SQL Scripts\\DBSync.cs",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
+              "RelativeToolTip": "SQL Scripts\\DBSync.cs",
+              "ViewState": "AgIAABwAAABAmZmZmdkkwCQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:09:05.142Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-04-11T13:34:32.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Model\\Order.cs",
-              "RelativeDocumentMoniker": "Vlad\\Model\\Order.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Model\\Order.cs",
-              "RelativeToolTip": "Vlad\\Model\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:08:56.132Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T04:43:44.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\ViewModel\\OrderViewModel.cs",
-              "RelativeDocumentMoniker": "Vlad\\ViewModel\\OrderViewModel.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\ViewModel\\OrderViewModel.cs",
-              "RelativeToolTip": "Vlad\\ViewModel\\OrderViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:39:01.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Service\\OrderService.cs",
-              "RelativeDocumentMoniker": "Vlad\\Service\\OrderService.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Service\\OrderService.cs",
-              "RelativeToolTip": "Vlad\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:36:53.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Vlad\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Vlad\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:35:39.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Razvan\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Services\\AuthService.cs",
-              "RelativeToolTip": "Razvan\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:27:23.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Scripts.sql ",
               "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeDocumentMoniker": "SQL Scripts\\Scripts.sql",
               "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeToolTip": "SQL Scripts\\Scripts.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-11T04:21:12.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VladWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Vlad\\VladWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml.cs",
-              "RelativeToolTip": "Vlad\\VladWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA9wEEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T04:15:53.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VladWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml",
-              "RelativeDocumentMoniker": "Vlad\\VladWindow.xaml",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml",
-              "RelativeToolTip": "Vlad\\VladWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-11T03:54:36.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DBSync.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
-              "RelativeDocumentMoniker": "SQL Scripts\\DBSync.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
-              "RelativeToolTip": "SQL Scripts\\DBSync.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCAAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:33:59.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dashboard.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T20:29:31.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App1",
-              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\App1.csproj",
-              "RelativeDocumentMoniker": "App1.csproj",
-              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\App1.csproj",
-              "RelativeToolTip": "App1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-10T20:30:14.114Z",
+              "WhenOpened": "2025-04-11T13:36:19.427Z",
               "EditorCaption": ""
             }
           ]

@@ -25,7 +25,7 @@ namespace App1.Geo
     {
         public BlankWindow1()
         {
-            this.InitializeComponent();
+            //this.InitializeComponent();
         }
     }
 }

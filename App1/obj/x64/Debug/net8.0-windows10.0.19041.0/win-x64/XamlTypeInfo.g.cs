@@ -233,7 +233,7 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "App1.Calina.ProfitCalcView";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "App1.Geo.BlankWindow1";
+            _typeNameTable[6] = "App1.Geo.DeliveryInfo";
             _typeNameTable[7] = "App1.GraphView";
             _typeNameTable[8] = "App1.MainWindow";
             _typeNameTable[9] = "App1.AuthFeature.Views.DashboardPage";
@@ -260,7 +260,7 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::App1.Calina.ProfitCalcView);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::App1.Geo.BlankWindow1);
+            _typeTable[6] = typeof(global::App1.Geo.DeliveryInfo);
             _typeTable[7] = typeof(global::App1.GraphView);
             _typeTable[8] = typeof(global::App1.MainWindow);
             _typeTable[9] = typeof(global::App1.AuthFeature.Views.DashboardPage);
@@ -315,7 +315,7 @@ namespace App1.App1_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_ProfitCalcView() { return new global::App1.Calina.ProfitCalcView(); }
-        private object Activate_6_BlankWindow1() { return new global::App1.Geo.BlankWindow1(); }
+        private object Activate_6_DeliveryInfo() { return new global::App1.Geo.DeliveryInfo(); }
         private object Activate_7_GraphView() { return new global::App1.GraphView(); }
         private object Activate_8_MainWindow() { return new global::App1.MainWindow(); }
         private object Activate_9_DashboardPage() { return new global::App1.AuthFeature.Views.DashboardPage(); }
@@ -329,7 +329,7 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_21_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_ProfitCalcView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Calina.ProfitCalcView).TypeHandle);
-        private void StaticInitializer_6_BlankWindow1() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.BlankWindow1).TypeHandle);
+        private void StaticInitializer_6_DeliveryInfo() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.DeliveryInfo).TypeHandle);
         private void StaticInitializer_7_GraphView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.GraphView).TypeHandle);
         private void StaticInitializer_8_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.MainWindow).TypeHandle);
         private void StaticInitializer_9_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.AuthFeature.Views.DashboardPage).TypeHandle);
@@ -400,10 +400,10 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  App1.Geo.BlankWindow1
+            case 6:   //  App1.Geo.DeliveryInfo
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_6_BlankWindow1;
-                userType.StaticInitializer = StaticInitializer_6_BlankWindow1;
+                userType.Activator = Activate_6_DeliveryInfo;
+                userType.StaticInitializer = StaticInitializer_6_DeliveryInfo;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

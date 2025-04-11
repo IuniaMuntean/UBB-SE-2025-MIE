@@ -22,8 +22,8 @@ namespace App1.SQL_Scripts
         private static string connectionString = "Host=localhost;" +
                                    "Port=5432;" +
                                    "Database=postgres;" +
-                                   "Username=postgres;" +
-                                   "Password=postgres;";
+                                   "Username=razvan-admin;" +
+                                   "Password=Cj159550285/;";
         public static void syncDB()
         {
             using NpgsqlConnection connection = new NpgsqlConnection(connectionString);
@@ -36,6 +36,10 @@ namespace App1.SQL_Scripts
 
             foreach (var query in createTableQueries)
             {
+                if(query == "")
+                {
+                    continue;
+                }
                 string tableName = GetTableNameFromQuery(query);
 
                 if (!DoesTableExist(connection, tableName))
@@ -76,9 +80,11 @@ namespace App1.SQL_Scripts
             if (query.StartsWith("CREATE TABLE", StringComparison.OrdinalIgnoreCase))
             {
                 var parts = query.Split(new[] { ' ', '(', '\r' }, StringSplitOptions.RemoveEmptyEntries);
-                return parts[2]; // Table name
+                return parts[2]; 
             }
+            Console.WriteLine("BAD QUERY:\n" + query);
             throw new InvalidOperationException("Unable to extract table name from query.");
+
         }
     }
 }
