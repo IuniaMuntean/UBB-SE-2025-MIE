@@ -1,0 +1,56 @@
+## Ignore build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+## VS Code/Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## App Packaging
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+
+## UWP/WinUI Auto-Generated
+GeneratedFiles/
+Package.appxmanifest
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+packages/
+.nuget/
+*.nuproj
+
+## EF Core (optional if you regenerate migrations each time)
+Migrations/
+
+## OS files
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Logs
+*.log
+
+## Others (optional cleanup)
+*.tmp
+*.bak
+*.swp
+*.cache

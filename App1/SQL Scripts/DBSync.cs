@@ -29,7 +29,7 @@ namespace App1.SQL_Scripts
             using NpgsqlConnection connection = new NpgsqlConnection(connectionString);
             connection.Open();
 
-            string sqlScript = File.ReadAllText("D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+            string sqlScript = File.ReadAllText("C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
             // D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql
 
             string[] createTableQueries = sqlScript.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
