@@ -11,9 +11,6 @@
     <Page Update="Toma\TomaWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Geo\BlankWindow1.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Calina\ProfitCalc.xaml">
       <SubType>Designer</SubType>
     </Page>

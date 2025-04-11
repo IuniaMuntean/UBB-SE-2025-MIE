@@ -226,14 +226,14 @@ namespace App1.App1_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[24];
+            _typeNameTable = new string[25];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "App1.Calina.ProfitCalcView";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "App1.Geo.BlankWindow1";
+            _typeNameTable[6] = "App1.Geo.DeliveryInfo";
             _typeNameTable[7] = "App1.GraphView";
             _typeNameTable[8] = "App1.MainWindow";
             _typeNameTable[9] = "App1.AuthFeature.Views.DashboardPage";
@@ -247,19 +247,20 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[17] = "App1.AuthFeature.Views.RegisterPage";
             _typeNameTable[18] = "App1.Toma.TomaWindow";
             _typeNameTable[19] = "App1.Vlad.VladWindow";
-            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[22] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[23] = "Int32";
+            _typeNameTable[20] = "App1.Vlad.ViewModel.OrderViewModel";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[23] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[24] = "Int32";
 
-            _typeTable = new global::System.Type[24];
+            _typeTable = new global::System.Type[25];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::App1.Calina.ProfitCalcView);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::App1.Geo.BlankWindow1);
+            _typeTable[6] = typeof(global::App1.Geo.DeliveryInfo);
             _typeTable[7] = typeof(global::App1.GraphView);
             _typeTable[8] = typeof(global::App1.MainWindow);
             _typeTable[9] = typeof(global::App1.AuthFeature.Views.DashboardPage);
@@ -273,10 +274,11 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[17] = typeof(global::App1.AuthFeature.Views.RegisterPage);
             _typeTable[18] = typeof(global::App1.Toma.TomaWindow);
             _typeTable[19] = typeof(global::App1.Vlad.VladWindow);
-            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[22] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[23] = typeof(global::System.Int32);
+            _typeTable[20] = typeof(global::App1.Vlad.ViewModel.OrderViewModel);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[23] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[24] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -313,7 +315,7 @@ namespace App1.App1_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_ProfitCalcView() { return new global::App1.Calina.ProfitCalcView(); }
-        private object Activate_6_BlankWindow1() { return new global::App1.Geo.BlankWindow1(); }
+        private object Activate_6_DeliveryInfo() { return new global::App1.Geo.DeliveryInfo(); }
         private object Activate_7_GraphView() { return new global::App1.GraphView(); }
         private object Activate_8_MainWindow() { return new global::App1.MainWindow(); }
         private object Activate_9_DashboardPage() { return new global::App1.AuthFeature.Views.DashboardPage(); }
@@ -323,10 +325,11 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_17_RegisterPage() { return new global::App1.AuthFeature.Views.RegisterPage(); }
         private object Activate_18_TomaWindow() { return new global::App1.Toma.TomaWindow(); }
         private object Activate_19_VladWindow() { return new global::App1.Vlad.VladWindow(); }
-        private object Activate_20_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_20_OrderViewModel() { return new global::App1.Vlad.ViewModel.OrderViewModel(); }
+        private object Activate_21_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_ProfitCalcView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Calina.ProfitCalcView).TypeHandle);
-        private void StaticInitializer_6_BlankWindow1() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.BlankWindow1).TypeHandle);
+        private void StaticInitializer_6_DeliveryInfo() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.DeliveryInfo).TypeHandle);
         private void StaticInitializer_7_GraphView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.GraphView).TypeHandle);
         private void StaticInitializer_8_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.MainWindow).TypeHandle);
         private void StaticInitializer_9_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.AuthFeature.Views.DashboardPage).TypeHandle);
@@ -337,8 +340,9 @@ namespace App1.App1_XamlTypeInfo
         private void StaticInitializer_17_RegisterPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.AuthFeature.Views.RegisterPage).TypeHandle);
         private void StaticInitializer_18_TomaWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Toma.TomaWindow).TypeHandle);
         private void StaticInitializer_19_VladWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Vlad.VladWindow).TypeHandle);
-        private void StaticInitializer_20_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_22_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_20_OrderViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Vlad.ViewModel.OrderViewModel).TypeHandle);
+        private void StaticInitializer_21_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_23_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -346,7 +350,7 @@ namespace App1.App1_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_22_IList(object instance, object item)
+        private void VectorAdd_23_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -396,10 +400,10 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  App1.Geo.BlankWindow1
+            case 6:   //  App1.Geo.DeliveryInfo
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_6_BlankWindow1;
-                userType.StaticInitializer = StaticInitializer_6_BlankWindow1;
+                userType.Activator = Activate_6_DeliveryInfo;
+                userType.StaticInitializer = StaticInitializer_6_DeliveryInfo;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -498,14 +502,23 @@ namespace App1.App1_XamlTypeInfo
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_19_VladWindow;
                 userType.StaticInitializer = StaticInitializer_19_VladWindow;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 20:   //  App1.Vlad.ViewModel.OrderViewModel
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.StaticInitializer = StaticInitializer_20_OrderViewModel;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 21:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_20_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_20_TreeViewNode;
+                userType.Activator = Activate_21_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_21_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -517,19 +530,19 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  Microsoft.UI.Xaml.DependencyObject
+            case 22:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 23:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_22_IList;
-                userType.CollectionAdd = VectorAdd_22_IList;
+                userType.StaticInitializer = StaticInitializer_23_IList;
+                userType.CollectionAdd = VectorAdd_23_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 23:   //  Int32
+            case 24:   //  Int32
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -661,52 +674,57 @@ namespace App1.App1_XamlTypeInfo
             var that = (global::App1.AuthFeature.ViewModels.RegisterViewModel)instance;
             return that.RegisterCommand;
         }
-        private object get_8_TreeViewNode_Children(object instance)
+        private object get_8_VladWindow_ViewModel(object instance)
+        {
+            var that = (global::App1.Vlad.VladWindow)instance;
+            return that.ViewModel;
+        }
+        private object get_9_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_9_TreeViewNode_Content(object instance)
+        private object get_10_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_9_TreeViewNode_Content(object instance, object Value)
+        private void set_10_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_10_TreeViewNode_Depth(object instance)
+        private object get_11_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_11_TreeViewNode_HasChildren(object instance)
+        private object get_12_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_12_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_13_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_12_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_13_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_13_TreeViewNode_IsExpanded(object instance)
+        private object get_14_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_13_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_14_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_14_TreeViewNode_Parent(object instance)
+        private object get_15_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -768,50 +786,56 @@ namespace App1.App1_XamlTypeInfo
                 xamlMember.Getter = get_7_RegisterViewModel_RegisterCommand;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "App1.Vlad.VladWindow.ViewModel":
+                userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("App1.Vlad.VladWindow");
+                xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "ViewModel", "App1.Vlad.ViewModel.OrderViewModel");
+                xamlMember.Getter = get_8_VladWindow_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_8_TreeViewNode_Children;
+                xamlMember.Getter = get_9_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_TreeViewNode_Content;
-                xamlMember.Setter = set_9_TreeViewNode_Content;
+                xamlMember.Getter = get_10_TreeViewNode_Content;
+                xamlMember.Setter = set_10_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_TreeViewNode_Depth;
+                xamlMember.Getter = get_11_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_12_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_12_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_12_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_13_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_13_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_13_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_14_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_14_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::App1.App1_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::App1.App1_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_14_TreeViewNode_Parent;
+                xamlMember.Getter = get_15_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

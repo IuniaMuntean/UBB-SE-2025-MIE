@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\",
+  "WorkspaceRootPath": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|c:\\users\\razva\\desktop\\github repos\\ubb-se-2025-mie\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,119 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:58:29.226Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DBSync.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
               "RelativeDocumentMoniker": "SQL Scripts\\DBSync.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs",
-              "RelativeToolTip": "SQL Scripts\\DBSync.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAAB1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\DBSync.cs*",
+              "RelativeToolTip": "SQL Scripts\\DBSync.cs*",
+              "ViewState": "AgIAABwAAADA//////8jwCgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:46:00.007Z",
+              "WhenOpened": "2025-04-11T13:34:32.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Scripts.sql",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
+              "DocumentIndex": 1,
+              "Title": "Scripts.sql ",
+              "DocumentMoniker": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeDocumentMoniker": "SQL Scripts\\Scripts.sql",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
+              "ToolTip": "C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql",
               "RelativeToolTip": "SQL Scripts\\Scripts.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-06T19:34:38.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Razvan\\Model\\User.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Model\\User.cs",
-              "RelativeToolTip": "Razvan\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:43:45.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.g.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
-              "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
-              "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Razvan\\Views\\Dashboard.g.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAMBdwDUAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:28:52.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dashboard.xaml",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-04T14:13:12.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dashboard.xaml.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA+wCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T18:49:35.354Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 342,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 68,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{68487888-204a-11d3-87eb-00c04f7971a5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2025-04-11T13:36:19.427Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -32,7 +32,7 @@ namespace App1.AuthFeature.Views
 
         private void btnGeo_Click(object sender, RoutedEventArgs e)
         {
-            Geo.BlankWindow1 geoView = new Geo.BlankWindow1();
+            Geo.DeliveryInfo geoView = new Geo.DeliveryInfo();
             geoView.Activate();
         }
 
