@@ -25,12 +25,12 @@ namespace App1.Vlad
     /// </summary>
     public sealed partial class VladWindow : Window
     {
-        public OrderViewModel ViewModel { get; } = new(); // <- exposes ViewModel to x:Bind
+        public OrderViewModel ViewModel { get; } = new(); 
 
         public VladWindow()
         {
             this.InitializeComponent();
-            _ = ViewModel.LoadOrdersAsync(); // async load
+            _ = ViewModel.LoadOrdersAsync(); 
         }
 
         private async void AddOrder_Click(object sender, RoutedEventArgs e)
@@ -48,6 +48,11 @@ namespace App1.Vlad
 
             ClientNameBox.Text = CargoTypeBox.Text = SourceCityBox.Text = DestinationCityBox.Text = "";
             CargoWeightBox.Text = "";
+        }
+
+        private void AddOrder_Click_Toma(object sender, RoutedEventArgs e)
+        {
+            //implement later
         }
 
         private async void DeleteOrder_Click(object sender, RoutedEventArgs e)
