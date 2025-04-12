@@ -14,44 +14,53 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
-        <!--<StackPanel Grid.Column="0" Spacing="10" VerticalAlignment="Top">
-            <TextBlock Text="ID:" />
-            <TextBlock Text="{x:Bind ViewModel.Id}" />
+        <ScrollViewer Grid.Column="0">
+            <StackPanel Spacing="10" VerticalAlignment="Top">
+                <!-- Order Details -->
+                <TextBlock Text="Order Details" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+                
+                <TextBlock Text="Order ID:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.OrderId, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <TextBlock Text="Client Name:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.ClientName, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <TextBlock Text="Cargo Type:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.CargoType, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <TextBlock Text="Cargo Weight:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.CargoWeight, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <TextBlock Text="Source City:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.SourceCity, Mode=OneWay}" IsReadOnly="True"/>
+                
+                <TextBlock Text="Destination City:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Order.DestinationCity, Mode=OneWay}" IsReadOnly="True"/>
 
-            <TextBlock Text="Manager:" />
-            <TextBlock Text="{x:Bind ViewModel.Manager}" />
-
-            <TextBlock Text="Departure:" />
-            <TextBlock Text="{x:Bind ViewModel.Departure}" />
-
-            <TextBlock Text="Destination:" />
-            <TextBlock Text="{x:Bind ViewModel.Destination}" />
-
-            <TextBlock Text="Distance:" />
-            <TextBlock Text="{x:Bind ViewModel.Distance}" />
-
-            <TextBlock Text="Driver:" />
-            <TextBlock Text="{x:Bind ViewModel.Driver}" />
-
-            <TextBlock Text="Departure Time:" />
-            <TextBlock Text="{x:Bind ViewModel.DepartureTime}" />
-
-            <TextBlock Text="Arrival Time:" />
-            <TextBlock Text="{x:Bind ViewModel.ArrivalTime}" />
-
-            <TextBlock Text="Truck ID:" />
-            <TextBlock Text="{x:Bind ViewModel.TruckId}" />
-
-            <TextBlock Text="Cargo Weight:" />
-            <TextBlock Text="{x:Bind ViewModel.CargoWeight}" />
-
-            <TextBlock Text="Cargo Status:" />
-            <TextBlock Text="{x:Bind ViewModel.CargoStatus}" />
-        </StackPanel>-->
+                <!-- Delivery Details -->
+                <TextBlock Text="Delivery Details" FontSize="20" FontWeight="Bold" Margin="0,20,0,10"/>
+                
+                <TextBlock Text="Driver:" FontWeight="Bold"/>
+                <TextBox Text="{Binding Driver, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                
+                <TextBlock Text="Truck ID:" FontWeight="Bold"/>
+                <TextBox Text="{Binding TruckId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                
+                <TextBlock Text="Departure Time:" FontWeight="Bold"/>
+                <DatePicker Date="{Binding DepartureTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource DateTimeConverter}}"/>
+                
+                <TextBlock Text="Arrival Time:" FontWeight="Bold"/>
+                <DatePicker Date="{Binding ArrivalTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource DateTimeConverter}}"/>
+                
+                <TextBlock Text="Distance (km):" FontWeight="Bold"/>
+                <TextBox Text="{Binding Distance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource DecimalConverter}}"/>
+            </StackPanel>
+        </ScrollViewer>
 
         <StackPanel Grid.Column="1" Spacing="15" VerticalAlignment="Top">
-            <Button Content="Generate Route" />
-            <Button Content="Calculate Pricing" />
+            <Button Content="Save Delivery Details" Click="SaveDeliveryDetails_Click"/>
+            <Button Content="Generate Route" Click="GenerateRoute_Click"/>
+            <Button Content="Calculate Pricing" Click="CalculatePricing_Click"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -33,26 +33,13 @@ namespace App1.Vlad
             _ = ViewModel.LoadOrdersAsync(); 
         }
 
-        private async void AddOrder_Click(object sender, RoutedEventArgs e)
-        {
-            var order = new Order
-            {
-                ClientName = "mock_data",
-                CargoType = "mock_data",
-                CargoWeight = 20,
-                SourceCity = "mock_data",
-                DestinationCity = "mock_data"
-            };
-
-            await ViewModel.AddOrderAsync(order);
-
-            ClientNameBox.Text = CargoTypeBox.Text = SourceCityBox.Text = DestinationCityBox.Text = "";
-            CargoWeightBox.Text = "";
-        }
-
         private void AddOrder_Click_Toma(object sender, RoutedEventArgs e)
         {
-            //implement later
+            Toma.TomaWindow t = new Toma.TomaWindow();
+            t.Activate();
+            t.Closed += async (s, e) => {
+                await ViewModel.LoadOrdersAsync();
+            };
         }
 
         private async void DeleteOrder_Click(object sender, RoutedEventArgs e)
@@ -71,10 +58,13 @@ namespace App1.Vlad
             }
         }
 
-        private void GenerateRoute_Click(object sender, RoutedEventArgs e)
+        private void ViewOrder_Click(object sender, RoutedEventArgs e)
         {
-            Geo.DeliveryInfo geoView = new Geo.DeliveryInfo();
-            geoView.Activate();
+            if ((sender as FrameworkElement)?.DataContext is Order order)
+            {
+                Geo.DeliveryInfo geoView = new Geo.DeliveryInfo(order);
+                geoView.Activate();
+            }
         }
     }
 }
