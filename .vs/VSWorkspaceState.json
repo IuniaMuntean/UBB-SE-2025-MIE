@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App1",
+    "\\App1\\Toma",
+    "\\App1\\Toma\\Models",
+    "\\App1\\Toma\\Services"
   ],
-  "SelectedNode": "\\C:\\Users\\Toma\\University\\Sem8",
+  "SelectedNode": "\\App1\\Toma\\Services\\ResourceServices.cs",
   "PreviewInSolutionExplorer": false
 }
