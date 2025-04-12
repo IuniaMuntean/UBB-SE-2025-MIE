@@ -3,17 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace App1.Model
 {
     internal class City
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public int x;
-        public int y;
+        [Table("cities")]
+        internal class City
+        {
+            [Column("id")]
+            public int id { get; set; }
 
-        public City(int id, string name, int x, int y)
+            [Column("name")]
+            public string name { get; set; }
+
+            [Column("x")]
+            public int x;
+
+            [Column("y")]
+            public int y;
+            public City(int id, string name, int x, int y)
         {
             this.id = id;
             this.name = name;
