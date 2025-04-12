@@ -6,25 +6,23 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace App1.Model
+namespace App1.Iunia_Fabi.Model
 {
+    [Table("cities")]
     internal class City
     {
-        [Table("cities")]
-        internal class City
-        {
-            [Column("id")]
-            public int id { get; set; }
+        [Column("id")]
+        public int id { get; set; }
 
-            [Column("name")]
-            public string name { get; set; }
+        [Column("name")]
+        public string name { get; set; }
 
-            [Column("x")]
-            public int x;
+        [Column("x")]
+        public int x;
 
-            [Column("y")]
-            public int y;
-            public City(int id, string name, int x, int y)
+        [Column("y")]
+        public int y;
+        public City(int id, string name, int x, int y)
         {
             this.id = id;
             this.name = name;
@@ -38,5 +36,5 @@ namespace App1.Model
             this.x = other.x;
             this.y = other.y;
         }
-    }
+    }   
 }

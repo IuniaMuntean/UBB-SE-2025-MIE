@@ -16,7 +16,7 @@ using Windows.Foundation.Collections;
 using Windows.Graphics;
 using Microsoft.UI.Windowing;
 using Microsoft.UI.Xaml.Shapes;
-using App1.Model;
+using App1.Iunia_Fabi.Model;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.

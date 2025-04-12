@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Devices.Bluetooth.Background;
 
-namespace App1.Model
+namespace App1.Iunia_Fabi.Model
 {
     internal class Graph
     {

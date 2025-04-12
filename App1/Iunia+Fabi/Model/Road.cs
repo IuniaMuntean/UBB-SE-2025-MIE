@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
-namespace App1.Model
+namespace App1.Iunia_Fabi.Model
 {
     [Table("roads")]
     internal class Road
