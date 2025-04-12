@@ -5,7 +5,7 @@ using System.Text;
 using System.Data;
 using System.Threading.Tasks;
 using Npgsql;
-using Toma.Models;
+using App1.Toma.Models;
 
 namespace App1.Toma.Services
 {

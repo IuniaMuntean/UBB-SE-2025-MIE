@@ -19,14 +19,23 @@ namespace App1.SQL_Scripts
          *  The syncDB() function will run on app start up (from App.xaml.cs, line 19)
         */
 
-        private static string connectionString = "Host=localhost;" +
+        private static string connectionStringRazvan = "Host=localhost;" +
                                    "Port=5432;" +
                                    "Database=postgres;" +
                                    "Username=razvan-admin;" +
                                    "Password=Cj159550285/;";
+
+        private static string connectionStringIunia = "Host=localhost;" +
+                                   "Port=5432;" +
+                                   "Database=truck-company;" +
+                                   "Username=postgres;" +
+                                   "Password=postgres;";
+
+        private static string connectionString = connectionStringIunia;
+
         public static void syncDB()
         {
-            using NpgsqlConnection connection = new NpgsqlConnection(connectionString);
+            using NpgsqlConnection connection = new NpgsqlConnection(connectionString ?? "");
             connection.Open();
 
             string sqlScript = File.ReadAllText("C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");

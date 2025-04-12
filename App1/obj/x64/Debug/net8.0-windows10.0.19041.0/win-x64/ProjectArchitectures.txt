@@ -1,1 +1,1 @@
-C:\Users\razva\Desktop\Github repos\UBB-SE-2025-MIE\App1\App1.csproj;x64
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\App1.csproj;x64
