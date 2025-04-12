@@ -17,7 +17,6 @@
             <TextBox x:Name="CargoWeightBox" PlaceholderText="Weight (tons)" Width="120"/>
             <TextBox x:Name="SourceCityBox" PlaceholderText="Source City" Width="120"/>
             <TextBox x:Name="DestinationCityBox" PlaceholderText="Destination City" Width="120"/>
-            <Button Content="Add" Click="AddOrder_Click"/>
             <Button Content="Add(Toma)" Click="AddOrder_Click_Toma"/>
         </StackPanel>
 
@@ -39,7 +38,7 @@
 
                             <Button Content="Update" Click="UpdateOrder_Click"/>
                             <Button Content="Delete" Click="DeleteOrder_Click"/>
-                            <Button Content="View Order" Click="GenerateRoute_Click"/>
+                            <Button Content="View Order" Click="ViewOrder_Click"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>

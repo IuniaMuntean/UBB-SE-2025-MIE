@@ -5,34 +5,39 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
+using App1.Vlad.Model;
 
 namespace App1.Geo.Model
 {
-    [Table("Delivery")]
+    [Table("delivery")]
     public class Delivery
     {
-        [Column("Id")]
+        [Column("delivery_id")]
         public int Id { get; set; }
-        [Column("Manager")]
-        public String Manager{ get; set; }
-        [Column("Departure")]
-        public String Departure { get; set; }
-        [Column("Destination")]
-        public String Destination {  get; set; }
-        [Column("Distance")]
-        public int Distance {  get; set; }
-        [Column("Driver")]
-        public String Driver {  get; set; }
-        [Column("Departure_Time")]
-        public String GoTime { get; set; }
-        [Column("Arrival_Time")]
-        public String ArrTime { get; set; }
-        [Column("TruckId")]
-        public int Truck {  get; set; }
-        [Column("Cargo_Weight")]
-        public int Weight { get; set; }
-        [Column("Cargo_IDs")]
-        public string CargoIds { get; set; }  
-
+        [Column("manager")]
+        public string Manager { get; set; } = "Default Manager";
+        [Column("departure")]
+        public string Departure { get; set; }
+        [Column("destination")]
+        public string Destination { get; set; }
+        [Column("distance")]
+        public decimal Distance { get; set; }
+        [Column("driver")]
+        public string Driver { get; set; }
+        [Column("departure_time")]
+        public DateTime DepartureTime { get; set; }
+        [Column("arrival_time")]
+        public DateTime ArrivalTime { get; set; }
+        [Column("truck_id")]
+        public int TruckId { get; set; }
+        [Column("cargo_weight")]
+        public decimal Weight { get; set; }
+        [Column("order_id")]
+        public int OrderId { get; set; }
+        public Order Order { get; set; }
+        [Column("created_at")]
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        [Column("updated_at")]
+        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
     }
 }

@@ -4,12 +4,36 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:App1.Toma"
+    xmlns:model="using:App1.Vlad.Model"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="TomaWindow">
-
-    <Grid>
-
+    Title="Add New Order">
+    <Grid Padding="20">
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Spacing="15" MinWidth="400">
+                <TextBlock Text="Add New Order" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+                
+                <TextBlock Text="Client Name:" FontWeight="Bold"/>
+                <TextBox x:Name="ClientNameTextBox" PlaceholderText="Enter client name"/>
+                
+                <TextBlock Text="Cargo Type:" FontWeight="Bold"/>
+                <TextBox x:Name="CargoTypeTextBox" PlaceholderText="Enter cargo type"/>
+                
+                <TextBlock Text="Cargo Weight (tons):" FontWeight="Bold"/>
+                <TextBox x:Name="CargoWeightTextBox" PlaceholderText="Enter weight in tons"/>
+                
+                <TextBlock Text="Source City:" FontWeight="Bold"/>
+                <TextBox x:Name="SourceCityTextBox" PlaceholderText="Enter source city"/>
+                
+                <TextBlock Text="Destination City:" FontWeight="Bold"/>
+                <TextBox x:Name="DestinationCityTextBox" PlaceholderText="Enter destination city"/>
+                
+                <Button Content="Add Order" 
+                        Click="AddOrderButton_Click"
+                        HorizontalAlignment="Right"
+                        Margin="0,20,0,0"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

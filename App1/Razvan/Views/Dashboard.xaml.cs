@@ -30,18 +30,6 @@ namespace App1.AuthFeature.Views
             profitCalcView.Activate();
         }
 
-        private void btnGeo_Click(object sender, RoutedEventArgs e)
-        {
-            Geo.DeliveryInfo geoView = new Geo.DeliveryInfo();
-            geoView.Activate();
-        }
-
-        private void btnToma_CLick(object sender, RoutedEventArgs e)
-        {
-            Toma.TomaWindow t = new Toma.TomaWindow();
-            t.Activate();
-        }
-
         private void btnVlad_Click(object sender, RoutedEventArgs e)
         {
             Vlad.VladWindow v = new Vlad.VladWindow();

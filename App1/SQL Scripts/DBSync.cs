@@ -36,10 +36,10 @@ namespace App1.SQL_Scripts
 
             foreach (var query in createTableQueries)
             {
-                if(query == "")
-                {
-                    continue;
-                }
+                //if(query == "")
+                //{
+                //    continue;
+                //}
                 string tableName = GetTableNameFromQuery(query);
 
                 if (!DoesTableExist(connection, tableName))
@@ -47,8 +47,13 @@ namespace App1.SQL_Scripts
                     // Execute the CREATE TABLE query
                     using (var command = new NpgsqlCommand(query, connection))
                     {
-                        command.ExecuteNonQuery();
-                        Console.WriteLine($"Table '{tableName}' created successfully.");
+                        try {
+                            command.ExecuteNonQuery();
+                            Console.WriteLine($"Table '{tableName}' created successfully.");
+                        }
+                        catch (Npgsql.PostgresException ex) {
+                            Console.WriteLine($"Error creating table '{tableName}': {ex.Message}");
+                        }
                     }
                 }
                 else
@@ -75,15 +80,50 @@ namespace App1.SQL_Scripts
 
         private static string GetTableNameFromQuery(string query)
         {
-            // Naive extraction of table name (works if "CREATE TABLE table_name" is consistent)
+            // Extract table name from CREATE TABLE or function name from CREATE FUNCTION
             query = query.Trim();
+            if (string.IsNullOrEmpty(query))
+            {
+                return null;
+            }
+
             if (query.StartsWith("CREATE TABLE", StringComparison.OrdinalIgnoreCase))
             {
-                var parts = query.Split(new[] { ' ', '(', '\r' }, StringSplitOptions.RemoveEmptyEntries);
-                return parts[2]; 
+                var parts = query.Split(new[] { ' ', '(', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 3)
+                {
+                    return parts[2];
+                }
             }
-            Console.WriteLine("BAD QUERY:\n" + query);
-            throw new InvalidOperationException("Unable to extract table name from query.");
+            else if (query.StartsWith("CREATE OR REPLACE FUNCTION", StringComparison.OrdinalIgnoreCase))
+            {
+                var parts = query.Split(new[] { ' ', '(', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 5)
+                {
+                    return parts[4];
+                }
+            }
+            else if (query.StartsWith("CREATE TRIGGER", StringComparison.OrdinalIgnoreCase))
+            {
+                var parts = query.Split(new[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 3)
+                {
+                    return parts[2];
+                }
+            }
+
+            // For comment lines or other non-CREATE statements, return null
+            if (query.TrimStart().StartsWith("--"))
+            {
+                return null;
+            }
+            
+            // For RETURN NEW statements (used in triggers), return null
+            if (query.Trim().Equals("RETURN NEW", StringComparison.OrdinalIgnoreCase))
+            {
+                return null;
+            }
+            throw new InvalidOperationException($"Unable to extract name from query: {query}");
 
         }
     }
