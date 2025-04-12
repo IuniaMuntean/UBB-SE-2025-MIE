@@ -10,47 +10,64 @@
     Title="Delivery Info"
     Width="800" Height="600">
     <Grid Padding="20">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="1*" />
-        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-        <StackPanel Grid.Column="0" Spacing="10" VerticalAlignment="Top">
-            <TextBlock Text="ID:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Id}" Margin="0,0,0,10" />
+        <TextBlock Text="{Binding StatusDisplay}" 
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   Margin="0,0,0,20"/>
 
-            <TextBlock Text="Manager:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Manager}" Margin="0,0,0,10" />
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Departure:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Departure}" Margin="0,0,0,10" />
+            <StackPanel Spacing="20">
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Route Information" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="{Binding RouteDisplay}" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
 
-            <TextBlock Text="Destination:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Destination}" Margin="0,0,0,10" />
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Staff Information" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="{Binding StaffDisplay}" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
 
-            <TextBlock Text="Client:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Client}" Margin="0,0,0,10" />
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Schedule" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="{Binding TimeDisplay}" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
 
-            <TextBlock Text="Driver:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Driver}" Margin="0,0,0,10" />
+                <Border BorderBrush="Gray" BorderThickness="1" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Cargo Information" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="{Binding CargoDisplay}" Margin="0,10,0,0"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
 
-            <TextBlock Text="Departure Time:" FontWeight="Bold" />
-            <TextBlock Text="{Binding GoTime}" Margin="0,0,0,10" />
-
-            <TextBlock Text="Arrival Time:" FontWeight="Bold" />
-            <TextBlock Text="{Binding ArrTime}" Margin="0,0,0,10" />
-
-            <TextBlock Text="Cargo Weight:" FontWeight="Bold" />
-            <TextBlock Text="{Binding Weight}" Margin="0,0,0,10" />
-
-            <TextBlock Text="Cargo Type:" FontWeight="Bold" />
-            <TextBlock Text="{Binding CargoType}" Margin="0,0,0,10" />
-        </StackPanel>
-
-        <StackPanel Grid.Column="1" Spacing="15" VerticalAlignment="Top">
-            <Button Content="Generate Route" Click="GenerateRoute_Click" Margin="0,0,0,10" />
-            <Button Content="Calculate Pricing" Click="CalculatePricing_Click" Margin="0,0,0,10" />
-            <Button Content="Save Delivery" Click="SaveDelivery_Click" Background="Green" Foreground="White" />
-        </StackPanel>
+            <StackPanel Grid.Column="1" Spacing="15" VerticalAlignment="Top">
+                <Button Content="Generate Route" 
+                        Click="GenerateRoute_Click" 
+                        Margin="0,0,0,10"
+                        Background="#0078D4"
+                        Foreground="White"/>
+                <Button Content="Calculate Pricing" 
+                        Click="CalculatePricing_Click" 
+                        Margin="0,0,0,10"
+                        Background="#0078D4"
+                        Foreground="White"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

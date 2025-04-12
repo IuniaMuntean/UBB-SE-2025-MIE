@@ -25,8 +25,11 @@ namespace App1.Geo.ViewModels
         }
         public async Task AddDeliveryAsync(Delivery delivery)
         {
-            await _deliveryService.AddDelivery(delivery);
-            _deliveryCollection.Add(delivery);
+            if (!await DeliveryExistsAsync(delivery))
+            {
+                await _deliveryService.AddDelivery(delivery);
+                _deliveryCollection.Add(delivery);
+            }
         }
 
         public async Task DeleteDeliveryAsync(Delivery delivery)
@@ -55,8 +58,5 @@ namespace App1.Geo.ViewModels
         {
             return _deliveryCollection.FirstOrDefault(d => d.Id == id);
         }
-
-
     }
-
 }

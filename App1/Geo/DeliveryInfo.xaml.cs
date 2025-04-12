@@ -27,35 +27,54 @@ namespace App1.Geo
         {
             this.InitializeComponent();
             
-            _currentDelivery = new Delivery
+            _ = InitializeDeliveryAsync(order);
+        }
+
+        private async Task InitializeDeliveryAsync(Order order)
+        {
+            try
             {
-                Departure = order.SourceCity,
-                Destination = order.DestinationCity,
-                Client = order.ClientName,
-                CargoType = order.CargoType,
-                Weight = (int)order.CargoWeight,
-                Manager = "Default Manager",
-                Driver = "Unassigned",      
-                GoTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm"), 
-                ArrTime = "Pending"         
-            };
-            
-            DataContext = _currentDelivery;
-            
-            _ = _viewModel.LoadDeliveriesAsync();
+                await _viewModel.LoadDeliveriesAsync();
+                var existingDeliveries = _viewModel.GetAllDeliveries();
+
+                var (manager, driver) = StaffManager.AssignStaff();
+
+                var departureTime = StaffManager.FindNextAvailableTimeSlot(existingDeliveries, driver);
+                var arrivalTime = departureTime.AddHours(2);
+
+                _currentDelivery = new Delivery
+                {
+                    Departure = order.SourceCity,
+                    Destination = order.DestinationCity,
+                    Client = order.ClientName,
+                    CargoType = order.CargoType,
+                    Weight = (int)order.CargoWeight,
+                    Manager = manager,
+                    Driver = driver,
+                    GoTime = departureTime.ToString("yyyy-MM-dd HH:mm"),
+                    ArrTime = arrivalTime.ToString("yyyy-MM-dd HH:mm")
+                };
+
+                DataContext = _currentDelivery;
+
+                await SaveDeliveryAsync();
+            }
+            catch (Exception ex)
+            {
+                var dialog = new ContentDialog
+                {
+                    Title = "Error",
+                    Content = $"Failed to initialize delivery: {ex.Message}",
+                    CloseButtonText = "OK"
+                };
+                dialog.ShowAsync();
+            }
         }
         
         private void GenerateRoute_Click(object sender, RoutedEventArgs e)
         {
-            
-            var dialog = new ContentDialog
-            {
-                Title = "Route Generation",
-                Content = "Route generation feature will be implemented here.",
-                CloseButtonText = "OK"
-            };
-            
-            dialog.ShowAsync();
+            RouteGeneration.RouteGenerationWindow routeView = new RouteGeneration.RouteGenerationWindow();
+            routeView.Activate();
         }
         
         private void CalculatePricing_Click(object sender, RoutedEventArgs e)
@@ -64,20 +83,42 @@ namespace App1.Geo
             calinaView.Activate();
         }
         
-        private async void SaveDelivery_Click(object sender, RoutedEventArgs e)
+        private async Task SaveDeliveryAsync()
         {
-            await _viewModel.AddDeliveryAsync(_currentDelivery);
-            
-            var dialog = new ContentDialog
+            try
             {
-                Title = "Success",
-                Content = "Delivery information saved successfully.",
-                CloseButtonText = "OK"
-            };
-            
-            dialog.ShowAsync();
-            
-            this.Close();
+                if (await _viewModel.DeliveryExistsAsync(_currentDelivery))
+                {
+                    var dialog = new ContentDialog
+                    {
+                        Title = "Information",
+                        Content = "This delivery already exists in the system.",
+                        CloseButtonText = "OK"
+                    };
+                    dialog.ShowAsync();
+                }
+                else
+                {
+                    await _viewModel.AddDeliveryAsync(_currentDelivery);
+                    var dialog = new ContentDialog
+                    {
+                        Title = "Success",
+                        Content = "Delivery information saved successfully.",
+                        CloseButtonText = "OK"
+                    };
+                    dialog.ShowAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                var dialog = new ContentDialog
+                {
+                    Title = "Error",
+                    Content = $"Failed to save delivery: {ex.Message}",
+                    CloseButtonText = "OK"
+                };
+                dialog.ShowAsync();
+            }
         }
     }
 }

@@ -23,6 +23,8 @@ namespace App1.Geo.Model
         public string Client { get; set; }
         [Column("Driver")]
         public string Driver {  get; set; }
+        [Column("Truck")]
+        public string Truck { get; set; }
         [Column("Departure_Time")]
         public string GoTime { get; set; }
         [Column("Arrival_Time")]
@@ -32,5 +34,36 @@ namespace App1.Geo.Model
         [Column("Cargo_Type")]
         public string CargoType {  get; set; }
 
+        [NotMapped]
+        public string WeightDisplay => Weight <= 44000 ? $"{Weight} kg" : "⚠️ Exceeds regulations (44000 kg)";
+
+        [NotMapped]
+        public string TimeDisplay => $"Departure: {GoTime}\nArrival: {ArrTime}";
+
+        [NotMapped]
+        public string StaffDisplay => $"Manager: {Manager}\nDriver: {Driver}";
+
+        [NotMapped]
+        public string RouteDisplay => $"From: {Departure}\nTo: {Destination}";
+
+        [NotMapped]
+        public string CargoDisplay => $"Type: {CargoType}\nWeight: {WeightDisplay}";
+
+        [NotMapped]
+        public string StatusDisplay
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(Driver))
+                    return "No driver assigned";
+                if (Weight > 44000)
+                    return "Weight exceeds regulations";
+                if (string.IsNullOrEmpty(GoTime))
+                    return "Departure time not set";
+                if (string.IsNullOrEmpty(ArrTime))
+                    return "In transit";
+                return "Scheduled";
+            }
+        }
     }
 }
