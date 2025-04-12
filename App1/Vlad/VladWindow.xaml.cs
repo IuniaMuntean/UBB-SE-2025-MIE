@@ -1,3 +1,5 @@
+using App1.Vlad.Model;
+using App1.Vlad.ViewModel;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -23,9 +25,46 @@ namespace App1.Vlad
     /// </summary>
     public sealed partial class VladWindow : Window
     {
+        public OrderViewModel ViewModel { get; } = new(); 
+
         public VladWindow()
         {
             this.InitializeComponent();
+            _ = ViewModel.LoadOrdersAsync(); 
+        }
+
+        private void AddOrder_Click_Toma(object sender, RoutedEventArgs e)
+        {
+            Toma.TomaWindow t = new Toma.TomaWindow();
+            t.Activate();
+            t.Closed += async (s, e) => {
+                await ViewModel.LoadOrdersAsync();
+            };
+        }
+
+        private async void DeleteOrder_Click(object sender, RoutedEventArgs e)
+        {
+            if ((sender as FrameworkElement)?.DataContext is Order order)
+            {
+                await ViewModel.DeleteOrderAsync(order);
+            }
+        }
+
+        private async void UpdateOrder_Click(object sender, RoutedEventArgs e)
+        {
+            if ((sender as FrameworkElement)?.DataContext is Order order)
+            {
+                await ViewModel.UpdateOrderAsync(order);
+            }
+        }
+
+        private void ViewOrder_Click(object sender, RoutedEventArgs e)
+        {
+            if ((sender as FrameworkElement)?.DataContext is Order order)
+            {
+                Geo.DeliveryInfo geoView = new Geo.DeliveryInfo(order);
+                geoView.Activate();
+            }
         }
     }
 }

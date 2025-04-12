@@ -10,8 +10,6 @@
         <Button Content="Log out" Click="OnLogoutClicked" />
         <Button Content="Profit Calculator" x:Name="btnProfitCalc" Click="btnProfitCalc_Click"/>
         <Button x:Name="btnGraphView" Content="Graph View" Click="btnGraphView_Click" />
-        <Button x:Name="btnGeo" Content="Geo" Click="btnGeo_Click" />
-        <Button x:Name="btnToma" Content="Toma" Click="btnToma_CLick"/>
-        <Button x:Name="btnVlad" Content="Vlad" Click="btnVlad_Click"/>
+        <Button x:Name="btnVlad" Content="Client Orders (Razvan)" Click="btnVlad_Click"/>
     </StackPanel>
 </Page>
