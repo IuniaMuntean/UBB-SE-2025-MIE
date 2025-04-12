@@ -318,8 +318,8 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.g.cs
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.g.i.cs
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.g.cs
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.g.i.cs
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.g.cs
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Iunia+Fabi\GraphView.g.i.cs
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Iunia+Fabi\GraphView.g.cs
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.g.i.cs
@@ -336,7 +336,7 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xaml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xaml
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xaml
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Iunia+Fabi\GraphView.xaml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xaml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\LoginPage.xaml
@@ -346,7 +346,7 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xbf
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xbf
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Iunia+Fabi\GraphView.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\LoginPage.xbf
@@ -355,14 +355,11 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Vlad\VladWindow.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.GeneratedMSBuildEditorConfig.editorconfig
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.dll
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\App1.dll
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.pdb
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.exe
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Calina\ProfitCalc.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Geo\DeliveryInfo.xbf
-D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\GraphView.xbf
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Iunia+Fabi\GraphView.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\Dashboard.xbf
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Razvan\Views\LoginPage.xbf
@@ -606,6 +603,9 @@ D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.csproj.CoreCompileInputs.cache
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.sourcelink.json
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.csproj.Up2Date
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.dll
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\App1.dll
+D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.pdb
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.genruntimeconfig.cache
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\App1.dll
 D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml

@@ -237,7 +237,7 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[7] = "Microsoft.UI.Xaml.Window";
             _typeNameTable[8] = "App1.Geo.DeliveryInfo";
             _typeNameTable[9] = "App1.Geo.ViewModels.DeliveryViewModel";
-            _typeNameTable[10] = "App1.GraphView";
+            _typeNameTable[10] = "App1.Iunia_Fabi.View.GraphView";
             _typeNameTable[11] = "App1.MainWindow";
             _typeNameTable[12] = "App1.AuthFeature.Views.DashboardPage";
             _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.Page";
@@ -267,7 +267,7 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[8] = typeof(global::App1.Geo.DeliveryInfo);
             _typeTable[9] = typeof(global::App1.Geo.ViewModels.DeliveryViewModel);
-            _typeTable[10] = typeof(global::App1.GraphView);
+            _typeTable[10] = typeof(global::App1.Iunia_Fabi.View.GraphView);
             _typeTable[11] = typeof(global::App1.MainWindow);
             _typeTable[12] = typeof(global::App1.AuthFeature.Views.DashboardPage);
             _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
@@ -323,7 +323,7 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_4_DecimalConverter() { return new global::App1.Geo.Converters.DecimalConverter(); }
         private object Activate_5_DateTimeConverter() { return new global::App1.Geo.Converters.DateTimeConverter(); }
         private object Activate_6_ProfitCalcView() { return new global::App1.Calina.ProfitCalcView(); }
-        private object Activate_10_GraphView() { return new global::App1.GraphView(); }
+        private object Activate_10_GraphView() { return new global::App1.Iunia_Fabi.View.GraphView(); }
         private object Activate_11_MainWindow() { return new global::App1.MainWindow(); }
         private object Activate_12_DashboardPage() { return new global::App1.AuthFeature.Views.DashboardPage(); }
         private object Activate_15_LoginViewModel() { return new global::App1.AuthFeature.ViewModels.LoginViewModel(); }
@@ -340,7 +340,7 @@ namespace App1.App1_XamlTypeInfo
         private void StaticInitializer_6_ProfitCalcView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Calina.ProfitCalcView).TypeHandle);
         private void StaticInitializer_8_DeliveryInfo() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.DeliveryInfo).TypeHandle);
         private void StaticInitializer_9_DeliveryViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Geo.ViewModels.DeliveryViewModel).TypeHandle);
-        private void StaticInitializer_10_GraphView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.GraphView).TypeHandle);
+        private void StaticInitializer_10_GraphView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.Iunia_Fabi.View.GraphView).TypeHandle);
         private void StaticInitializer_11_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.MainWindow).TypeHandle);
         private void StaticInitializer_12_DashboardPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.AuthFeature.Views.DashboardPage).TypeHandle);
         private void StaticInitializer_15_LoginViewModel() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::App1.AuthFeature.ViewModels.LoginViewModel).TypeHandle);
@@ -442,7 +442,7 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  App1.GraphView
+            case 10:   //  App1.Iunia_Fabi.View.GraphView
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_10_GraphView;
                 userType.StaticInitializer = StaticInitializer_10_GraphView;
