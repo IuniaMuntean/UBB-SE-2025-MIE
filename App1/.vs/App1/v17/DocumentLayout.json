@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\service\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\service\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\model\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\fabi- path finding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\fabi- path finding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\obj\\x64\\debug\\net8.0-windows10.0.19041.0\\win-x64\\iunia\u002Bfabi\\graphview.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:obj\\x64\\debug\\net8.0-windows10.0.19041.0\\win-x64\\iunia\u002Bfabi\\graphview.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\vlad\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\service\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\service\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\graphview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\faculta\\sem vi\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,37 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 161,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GraphView.g.i.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Iunia\u002BFabi\\GraphView.g.i.cs",
-              "RelativeDocumentMoniker": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Iunia\u002BFabi\\GraphView.g.i.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Iunia\u002BFabi\\GraphView.g.i.cs",
-              "RelativeToolTip": "obj\\x64\\Debug\\net8.0-windows10.0.19041.0\\win-x64\\Iunia\u002BFabi\\GraphView.g.i.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Model\\Graph.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Model\\Graph.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Model\\Graph.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Model\\Graph.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwGgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:49:51.095Z",
+              "WhenOpened": "2025-04-12T22:10:23.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fabi- Path Finding.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Fabi- Path Finding.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Fabi- Path Finding.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Fabi- Path Finding.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Fabi- Path Finding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T22:09:27.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GraphView.xaml.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\GraphView.xaml.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\GraphView.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\CitiesService.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Service\\CitiesService.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\CitiesService.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Service\\CitiesService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:32:08.111Z",
+              "WhenOpened": "2025-04-12T21:44:05.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Vlad\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Vlad\\Service\\OrderService.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Vlad\\Service\\OrderService.cs",
+              "RelativeToolTip": "Vlad\\Service\\OrderService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T21:40:59.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GraphService.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Service\\GraphService.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Service\\GraphService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:22:19.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GraphView.xaml",
               "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml",
               "RelativeDocumentMoniker": "Iunia\u002BFabi\\GraphView.xaml",
@@ -85,65 +124,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dashboard.xaml",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-12T20:46:15.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Dashboard.xaml.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Title": "GraphView.xaml.cs",
+              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\GraphView.xaml.cs",
+              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\GraphView.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:26:33.997Z",
+              "WhenOpened": "2025-04-12T20:32:08.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GraphService.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Service\\GraphService.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\Service\\GraphService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:22:19.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CityDBContext.cs",
               "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
               "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
               "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
               "RelativeToolTip": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:13:37.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\DBContext.cs",
-              "ToolTip": "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\Data\\DBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T20:04:20.28Z"
+              "WhenOpened": "2025-04-12T20:13:37.595Z",
+              "EditorCaption": ""
             }
           ]
         },

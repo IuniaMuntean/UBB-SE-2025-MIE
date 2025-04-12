@@ -50,7 +50,7 @@ namespace App1.Iunia_Fabi.View
             IntPtr hwnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
             var windowId = Win32Interop.GetWindowIdFromWindow(hwnd);
             AppWindow appWindow = AppWindow.GetFromWindowId(windowId);
-            appWindow.Resize(new SizeInt32(600, 600));
+            appWindow.Resize(new SizeInt32(1000, 900));
         }
 
 

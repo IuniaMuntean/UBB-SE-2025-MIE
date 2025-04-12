@@ -9,13 +9,13 @@ namespace App1.Iunia_Fabi.Model
 {
     internal class Graph
     {
-        private Dictionary<int, City> cities;
-        private Dictionary<City, int> ids;
+        protected Dictionary<int, City> cities;
+        protected Dictionary<City, int> ids;
 
-        private Dictionary<int, HashSet<int>> outbound;
-        private Dictionary<int, HashSet<int>> inbound;
+        protected Dictionary<int, HashSet<int>> outbound { get; set; }
+        protected Dictionary<int, HashSet<int>> inbound;
 
-        private HashSet<Road> edges;
+        protected HashSet<Road> edges;
 
         public Graph() 
         {
@@ -84,6 +84,7 @@ namespace App1.Iunia_Fabi.Model
 
             return parents;
         }
+
 
         public List<int> path(int start, int end)
         {
