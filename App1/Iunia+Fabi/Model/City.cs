@@ -22,6 +22,14 @@ namespace App1.Iunia_Fabi.Model
 
         [Column("y")]
         public int y;
+
+        public City() {
+            this.id = 0;
+            this.name = string.Empty;
+            this.x = 0;
+            this.y = 0;
+        }
+
         public City(int id, string name, int x, int y)
         {
             this.id = id;

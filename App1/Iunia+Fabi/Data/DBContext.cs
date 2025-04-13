@@ -17,10 +17,18 @@ namespace App1.Iunia_Fabi.Data
         {
         }
 
+        public RoadDBContext()
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres");
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Road>().HasKey(o => new { o.start, o.end });
-            modelBuilder.Entity<Road>().HasIndex(o => new { o.start, o.end });
+            modelBuilder.Entity<Road>().HasKey(o => new { o.start, o.end });    
         }
     }
 }

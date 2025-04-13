@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-12T22:27:30.483</Modified>
+      <Modified>2025-04-13T16:32:28.852</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-12T20:53:32.287</Modified>
+      <Modified>2025-04-13T13:57:43.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.runtimeconfig.json">
       <PackagePath>App1.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-12T20:53:32.004</Modified>
+      <Modified>2025-04-13T13:57:42.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2025-04-12T22:27:29.794</Modified>
+      <Modified>2025-04-13T16:32:28.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2025-04-12T22:27:29.856</Modified>
+      <Modified>2025-04-13T16:32:28.506</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MyLenovo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.15\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -955,7 +955,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App1.deps.json">
       <PackagePath>App1.deps.json</PackagePath>
-      <Modified>2025-04-12T20:53:31.822</Modified>
+      <Modified>2025-04-13T13:57:42.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\FACULTA\SEM VI\UBB-SE-2025-MIE\App1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

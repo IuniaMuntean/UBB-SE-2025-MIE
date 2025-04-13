@@ -9,8 +9,8 @@
     mc:Ignorable="d"
     Title="GraphView">
 
-    <StackPanel>
+    <Canvas x:Name="GraphCanvas">
         
-    </StackPanel>
+    </Canvas>
     
 </Window>

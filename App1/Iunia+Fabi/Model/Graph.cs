@@ -12,7 +12,7 @@ namespace App1.Iunia_Fabi.Model
         protected Dictionary<int, City> cities;
         protected Dictionary<City, int> ids;
 
-        protected Dictionary<int, HashSet<int>> outbound { get; set; }
+        protected Dictionary<int, HashSet<int>> outbound;
         protected Dictionary<int, HashSet<int>> inbound;
 
         protected HashSet<Road> edges;
@@ -60,48 +60,63 @@ namespace App1.Iunia_Fabi.Model
             return new List<Road>(edges.ToList());
         }
 
-        private Dictionary<int, int> bfs(int start)
+        public Dictionary<int, HashSet<int>> Outbound()
         {
-            Dictionary<int, int> parents = new Dictionary<int, int>();
-            Queue<int> q = new Queue<int>();
-            HashSet<int> visited = new HashSet<int>();
-
-            q.Enqueue(start);
-            visited.Add(start);
-            parents.Add(start, 0);
-
-            while (q.Count() != 0)
-            {
-                int city = q.Dequeue();
-                foreach (int neighbour in outbound[city])
-                    if (!visited.Contains(neighbour))
-                    {
-                        q.Enqueue(neighbour);
-                        visited.Add(neighbour);
-                        parents.Add(neighbour, city);
-                    }
-            }
-
-            return parents;
+            return outbound;
         }
 
-
-        public List<int> path(int start, int end)
+        public Dictionary<int, HashSet<int>> Inbound()
         {
-            List<int> path = new List<int>();
-            Dictionary<int, int> parents = bfs(start);
-
-            int city = end;
-            while (city != 0)
-            {
-                path.Add(cities[city].id);
-                city = parents[city];
-            }
-
-            path.Reverse();
-            if (path[0] != start)
-                return new List<int>();
-            return path;
+            return inbound;
         }
+
+        public HashSet<Road> Edges()
+        {
+            return edges;
+        }
+
+        //private Dictionary<int, int> bfs(int start)
+        //{
+        //    Dictionary<int, int> parents = new Dictionary<int, int>();
+        //    Queue<int> q = new Queue<int>();
+        //    HashSet<int> visited = new HashSet<int>();
+
+        //    q.Enqueue(start);
+        //    visited.Add(start);
+        //    parents.Add(start, 0);
+
+        //    while (q.Count() != 0)
+        //    {
+        //        int city = q.Dequeue();
+        //        foreach (int neighbour in outbound[city])
+        //            if (!visited.Contains(neighbour))
+        //            {
+        //                q.Enqueue(neighbour);
+        //                visited.Add(neighbour);
+        //                parents.Add(neighbour, city);
+        //            }
+        //    }
+
+        //    return parents;
+        //}
+
+
+        //public List<int> path(int start, int end)
+        //{
+        //    List<int> path = new List<int>();
+        //    Dictionary<int, int> parents = bfs(start);
+
+        //    int city = end;
+        //    while (city != 0)
+        //    {
+        //        path.Add(cities[city].id);
+        //        city = parents[city];
+        //    }
+
+        //    path.Reverse();
+        //    if (path[0] != start)
+        //        return new List<int>();
+        //    return path;
+        //}
     }
 }

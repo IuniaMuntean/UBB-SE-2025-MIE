@@ -1,28 +1,24 @@
-using App1.Iunia_Fabi;
-using App1.Iunia_Fabi.Model;
+﻿using App1.Iunia_Fabi.Model;
 using App1.Iunia_Fabi.Service;
-using LinqToDB;
-using Microsoft.UI;
-using Microsoft.UI.Windowing;
-using Microsoft.UI.Xaml;
+using App1.Iunia_Fabi.View;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Shapes;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
-using Windows.Graphics;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace App1.Iunia_Fabi.View
+namespace App1.Iunia_Fabi
 {
-    public sealed partial class GraphView : Window
+    internal class GraphViewModel
     {
-        private GraphService graphService = new();
+        public GraphService graphService = new();
+        GraphView graphView = new GraphView();
 
-        public GraphView()
-        {
-            this.InitializeComponent();
-            setSize();
+        public GraphViewModel() {
 
             graphService.InsertCityDB("City 1", 0, 0);
             graphService.InsertCityDB("City 2", 200, 200);
@@ -35,30 +31,7 @@ namespace App1.Iunia_Fabi.View
             graphService.InsertRoadDB(3, 4, 1);
             graphService.InsertRoadDB(2, 4, 1);
             graphService.InsertRoadDB(4, 5, 1);
-
-
-            Canvas canvas = new Canvas
-            {
-                Width = 600,
-                Height = 600,
-                Background = new SolidColorBrush(Microsoft.UI.Colors.LightGray)
-            };
-
-            DrawCircles(canvas, graphService.Graph.Cities().Select(city => (city.x, city.y)).ToList());
-
-            var path = Fabi__Path_Finding.Path(graphService.Graph, 1, 5);
-            DrawLines(canvas, new SolidColorBrush(Microsoft.UI.Colors.Black), graphService.Graph.Roads().Select(road => ((graphService.Graph.City(road.start).x, graphService.Graph.City(road.start).y), (graphService.Graph.City(road.end).x, graphService.Graph.City(road.end).y))).ToList());
-            DrawLine(canvas, new SolidColorBrush(Microsoft.UI.Colors.Red), path.Select(id => (graphService.Graph.City(id).x, graphService.Graph.City(id).y)).ToList());
         }
-
-        private void setSize()
-        {
-            IntPtr hwnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
-            var windowId = Win32Interop.GetWindowIdFromWindow(hwnd);
-            AppWindow appWindow = AppWindow.GetFromWindowId(windowId);
-            appWindow.Resize(new SizeInt32(1000, 900));
-        }
-
 
         private void DrawCircles(Canvas canvas, List<(int x, int y)> coordinates)
         {
@@ -76,7 +49,7 @@ namespace App1.Iunia_Fabi.View
                 canvas.Children.Add(circle);
             }
 
-            this.Content = canvas; // Set the canvas as the content of the window
+            graphView.Content = canvas; // Set the canvas as the content of the window
         }
         private void DrawLine(Canvas canvas, Brush brush, List<(int x, int y)> points)
         {
@@ -98,7 +71,7 @@ namespace App1.Iunia_Fabi.View
                 canvas.Children.Add(line);
             }
         }
-        private void DrawLines(Canvas canvas, Brush brush, List<((int x, int y) start,(int x, int y) end)> lines)
+        private void DrawLines(Canvas canvas, Brush brush, List<((int x, int y) start, (int x, int y) end)> lines)
         {
             for (int i = 0; i < lines.Count; i++)
             {
@@ -118,5 +91,6 @@ namespace App1.Iunia_Fabi.View
                 canvas.Children.Add(line);
             }
         }
+
     }
 }

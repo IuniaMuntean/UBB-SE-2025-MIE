@@ -5,16 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App1.Iunia_Fabi
+namespace App1.Iunia_Fabi.Model
 {
-    internal class Fabi__Path_Finding : Graph
+    internal class Fabi__Path_Finding 
     {
 
-        private Dictionary<int, int> bfs(int start)
+        private static Dictionary<int, int> bfs(Graph g, int start)
         {
             Dictionary<int, int> parents = new Dictionary<int, int>();
             Queue<int> q = new Queue<int>();
             HashSet<int> visited = new HashSet<int>();
+            var outbound = g.Outbound();
 
             q.Enqueue(start);
             visited.Add(start);
@@ -36,10 +37,11 @@ namespace App1.Iunia_Fabi
         }
 
 
-        public List<int> path(int start, int end)
+        public static List<int> Path(Graph g, int start, int end)
         {
             List<int> path = new List<int>();
-            Dictionary<int, int> parents = bfs(start);
+            Dictionary<int, int> parents = bfs(g, start);
+            var cities = g.Cities();
 
             int city = end;
             while (city != 0)
