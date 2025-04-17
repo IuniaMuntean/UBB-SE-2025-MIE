@@ -21,7 +21,7 @@ namespace App1.AuthFeature.Views
         private void btnGraphView_Click(object sender, RoutedEventArgs e)
         {
             // opens graph view
-            GraphView graphView = new GraphView();
+            GraphView graphView = new GraphView(1, 5);
             graphView.Activate();
         }
 

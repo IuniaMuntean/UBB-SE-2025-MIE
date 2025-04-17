@@ -46,7 +46,7 @@ namespace App1.Iunia_Fabi.Model
             int city = end;
             while (city != 0)
             {
-                path.Add(cities[city].id);
+                path.Add(cities[city - 1].id);
                 city = parents[city];
             }
 

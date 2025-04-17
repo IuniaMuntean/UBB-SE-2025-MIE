@@ -18,10 +18,10 @@ namespace App1.Iunia_Fabi.Model
         public string name { get; set; }
 
         [Column("x")]
-        public int x;
+        public float x;
 
         [Column("y")]
-        public int y;
+        public float y;
 
         public City() {
             this.id = 0;

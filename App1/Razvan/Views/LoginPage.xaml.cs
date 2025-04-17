@@ -24,7 +24,9 @@ namespace App1.AuthFeature.Views
 
             if (success)
             {
-                App1.MainWindow.AppFrame.Navigate(typeof(DashboardPage));
+                //App1.MainWindow.AppFrame.Navigate(typeof(DashboardPage));
+                Vlad.VladWindow v = new Vlad.VladWindow();
+                v.Activate();
             }
             else
             {

@@ -29,6 +29,7 @@ namespace App1.Iunia_Fabi.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Road>().HasKey(o => new { o.start, o.end });    
+            modelBuilder.Entity<Road>().Property(o => o.value).IsRequired();    
         }
     }
 }

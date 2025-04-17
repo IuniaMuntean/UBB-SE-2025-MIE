@@ -18,12 +18,12 @@ namespace App1.Iunia_Fabi.Model
         public int end { get; set; }
 
         [Column("value")]
-        public int value { get; set; }
+        public float value { get; set; }
 
-        public int RelatedEntity1 { get; set; }
-        public int RelatedEntity2 { get; set; }
+        //public int RelatedEntity1 { get; set; }
+        //public int RelatedEntity2 { get; set; }
 
-        public Road(int start, int end, int value)
+        public Road(int start, int end, float value)
         {
             this.start = start;
             this.end = end;

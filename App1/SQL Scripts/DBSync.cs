@@ -31,7 +31,13 @@ namespace App1.SQL_Scripts
                                    "Username=postgres;" +
                                    "Password=postgres;";
 
-        private static string connectionString = connectionStringIunia;
+        private static string connectionStringIunia2 = "Host=localhost;" +
+                                   "Port=5432;" +
+                                   "Database=postgres;" +
+                                   "Username=postgres;" +
+                                   "Password=postgres;";
+
+        private static string connectionString = connectionStringIunia2;
 
         public static void syncDB()
         {
@@ -40,7 +46,8 @@ namespace App1.SQL_Scripts
 
             string sqlScript = File.ReadAllText("" +
                 //"C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
-                "D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+                //"D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+                "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
 
             string[] createTableQueries = sqlScript.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -79,7 +86,7 @@ namespace App1.SQL_Scripts
             SELECT EXISTS (
                 SELECT 1
                 FROM information_schema.tables
-                WHERE table_name = '{tableName}'
+                WHERE table_schema = 'truck-company' AND table_name = '{tableName}'
             );";
 
             using (var command = new NpgsqlCommand(query, connection))

@@ -323,7 +323,6 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_4_DecimalConverter() { return new global::App1.Geo.Converters.DecimalConverter(); }
         private object Activate_5_DateTimeConverter() { return new global::App1.Geo.Converters.DateTimeConverter(); }
         private object Activate_6_ProfitCalcView() { return new global::App1.Calina.ProfitCalcView(); }
-        private object Activate_10_GraphView() { return new global::App1.Iunia_Fabi.View.GraphView(); }
         private object Activate_11_MainWindow() { return new global::App1.MainWindow(); }
         private object Activate_12_DashboardPage() { return new global::App1.AuthFeature.Views.DashboardPage(); }
         private object Activate_15_LoginViewModel() { return new global::App1.AuthFeature.ViewModels.LoginViewModel(); }
@@ -444,7 +443,6 @@ namespace App1.App1_XamlTypeInfo
 
             case 10:   //  App1.Iunia_Fabi.View.GraphView
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_10_GraphView;
                 userType.StaticInitializer = StaticInitializer_10_GraphView;
                 userType.SetIsLocalType();
                 xamlType = userType;

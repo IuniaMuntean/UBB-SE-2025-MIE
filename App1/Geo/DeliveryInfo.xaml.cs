@@ -1,3 +1,10 @@
+using App1.Geo.Data;
+using App1.Geo.Model;
+using App1.Geo.Services;
+using App1.Geo.ViewModels;
+using App1.Iunia_Fabi.View;
+using App1.Vlad.Model;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -10,15 +17,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using System.Threading.Tasks;
-using App1.Vlad.Model;
-using App1.Geo.Model;
-using App1.Geo.Data;
-using App1.Geo.ViewModels;
-using App1.Geo.Services;
-using Microsoft.EntityFrameworkCore;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -97,12 +98,15 @@ namespace App1.Geo
 
         private void GenerateRoute_Click(object sender, RoutedEventArgs e)
         {
-            ShowMessage("Route generation will be implemented later");
+            int start = int.Parse(txtSourceCity.Text.ToString());
+            int end = int.Parse(txtDestinationCity.Text.ToString());
+            GraphView graphView = new GraphView(start, end);
+            graphView.Activate();
         }
 
         private void CalculatePricing_Click(object sender, RoutedEventArgs e)
         {
-            ShowMessage("Pricing calculation will be implemented later");
+            ShowMessage("Price Calculator will be implemented later");
         }
 
         private async Task ShowMessage(string message)

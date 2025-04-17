@@ -20,6 +20,7 @@ namespace App1.AuthFeature.Views
             viewModel.Password = passwordBox.Password;
             viewModel.ConfirmPassword = confirmBox.Password;
             viewModel.RegisterCommand.Execute(null);
+            OnLoginNavigate(sender, e); 
         }
 
         private void OnLoginNavigate(object sender, RoutedEventArgs e)

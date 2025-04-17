@@ -31,6 +31,8 @@ namespace App1.Iunia_Fabi.Data
         {
             modelBuilder.Entity<City>().HasKey(o => o.id);
             modelBuilder.Entity<City>().HasIndex(o => o.id).IsUnique();
+            modelBuilder.Entity<City>().Property(c => c.x).IsRequired();
+            modelBuilder.Entity<City>().Property(c => c.y).IsRequired();
         }
     }
 }

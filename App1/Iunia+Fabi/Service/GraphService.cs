@@ -17,7 +17,7 @@ namespace App1.Iunia_Fabi.Service
         public Graph? Graph = new Graph();
 
         public GraphService()
-        {
+        { 
             var dbCities = _dbCityContext.Cities.ToList();
             foreach (City city in dbCities) {
                 Graph.add(city);
@@ -54,13 +54,18 @@ namespace App1.Iunia_Fabi.Service
                 .Last().id + 1;
             }
             catch {  }
-            City c = new City(id, name, x, y);
+            City c = new City{
+                id = id, 
+                name = name, 
+                x= x, 
+                y =y
+            };
             Graph.add(c);
             _dbCityContext.Add(c);
             _dbCityContext.SaveChanges();
         }
 
-        public void InsertRoadDB(int idStartCity,  int idEndCity, int value)
+        public void InsertRoadDB(int idStartCity,  int idEndCity, float value)
         {
             Road r = new Road(idStartCity, idEndCity, value);
             Graph.add(r);

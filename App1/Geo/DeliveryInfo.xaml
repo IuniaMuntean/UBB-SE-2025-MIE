@@ -31,11 +31,11 @@
                 <TextBlock Text="Cargo Weight:" FontWeight="Bold"/>
                 <TextBox Text="{Binding Order.CargoWeight, Mode=OneWay}" IsReadOnly="True"/>
                 
-                <TextBlock Text="Source City:" FontWeight="Bold"/>
-                <TextBox Text="{Binding Order.SourceCity, Mode=OneWay}" IsReadOnly="True"/>
-                
+                <TextBlock   Text="Source City:" FontWeight="Bold"/>
+                <TextBox Name="txtSourceCity" Text="{Binding Order.SourceCity, Mode=OneWay}" IsReadOnly="True"/>
+
                 <TextBlock Text="Destination City:" FontWeight="Bold"/>
-                <TextBox Text="{Binding Order.DestinationCity, Mode=OneWay}" IsReadOnly="True"/>
+                <TextBox Name="txtDestinationCity" Text="{Binding Order.DestinationCity, Mode=OneWay}" IsReadOnly="True"/>
 
                 <!-- Delivery Details -->
                 <TextBlock Text="Delivery Details" FontSize="20" FontWeight="Bold" Margin="0,20,0,10"/>
