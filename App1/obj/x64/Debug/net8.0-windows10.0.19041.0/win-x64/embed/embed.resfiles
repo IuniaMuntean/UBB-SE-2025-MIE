@@ -1,10 +1,10 @@
 App.xbf
+AuthFeature\Views\Dashboard.xbf
+AuthFeature\Views\LoginPage.xbf
+AuthFeature\Views\RegisterPage.xbf
 Calina\ProfitCalc.xbf
 Geo\DeliveryInfo.xbf
 Iunia+Fabi\GraphView.xbf
 MainWindow.xbf
-Razvan\Views\Dashboard.xbf
-Razvan\Views\LoginPage.xbf
-Razvan\Views\RegisterPage.xbf
 Toma\TomaWindow.xbf
 Vlad\VladWindow.xbf

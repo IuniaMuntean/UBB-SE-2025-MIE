@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\App1",
+    "\\App1\\AuthFeature\\Views",
+    "\\App1\\Iunia\u002BFabi",
     "\\App1\\Toma",
     "\\App1\\Toma\\Models",
     "\\App1\\Toma\\Services"
   ],
-  "SelectedNode": "\\App1\\Toma\\Services\\ResourceServices.cs",
+  "SelectedNode": "\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -13,10 +13,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Razvan\Views\Dashboard.xaml" />
+    <None Remove="AuthFeature\Views\Dashboard.xaml" />
+    <None Remove="AuthFeature\Views\LoginPage.xaml" />
+    <None Remove="AuthFeature\Views\RegisterPage.xaml" />
+    <None Remove="Calina\ProfitCalc.xaml" />
+    <None Remove="Geo\DeliveryInfo.xaml" />
+    <None Remove="Iunia+Fabi\GraphView.xaml" />
+    <None Remove="MainWindow.xaml" />
     <None Remove="Toma\TomaWindow.xaml" />
     <None Remove="Vlad\VladWindow.xaml" />
   </ItemGroup>
+ 
 
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -51,6 +58,34 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250310001" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AuthFeature\Views\Dashboard.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="AuthFeature\Views\LoginPage.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="AuthFeature\Views\RegisterPage.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="Calina\ProfitCalc.xaml" />
+    <Page Include="Geo\DeliveryInfo.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="Iunia+Fabi\GraphView.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild: Compile</Generator>
+    </Page>
+    <Page Include="Toma\TomaWindow.xaml" />
+    <Page Include="Vlad\VladWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Calina\profitCalculator.cs">
+      <Generator>MSBuild: Compile</Generator>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Vlad\VladWindow.xaml">

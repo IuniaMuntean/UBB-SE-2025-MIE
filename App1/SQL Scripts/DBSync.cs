@@ -45,9 +45,9 @@ namespace App1.SQL_Scripts
             connection.Open();
 
             string sqlScript = File.ReadAllText("" +
-                //"C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+                "C:\\Users\\maco\\Desktop\\maco-codes\\united\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
                 //"D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
-                "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+                //"D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
 
             string[] createTableQueries = sqlScript.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
 

@@ -3216,25 +3216,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Iunia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\maco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\maco\\Desktop\\maco-codes\\united\\UBB-SE-2025-MIE\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj",
-      "packagesPath": "C:\\Users\\Iunia\\.nuget\\packages\\",
-      "outputPath": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\obj\\",
+      "projectPath": "C:\\Users\\maco\\Desktop\\maco-codes\\united\\UBB-SE-2025-MIE\\App1\\App1.csproj",
+      "packagesPath": "C:\\Users\\maco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maco\\Desktop\\maco-codes\\united\\UBB-SE-2025-MIE\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Iunia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3243,7 +3241,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3262,7 +3259,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-windows10.0.19041": {
@@ -3358,7 +3355,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
