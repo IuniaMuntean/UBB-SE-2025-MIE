@@ -23,7 +23,7 @@ namespace App1.Iunia_Fabi.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres");
+            optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=admin");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

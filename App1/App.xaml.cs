@@ -24,7 +24,7 @@ namespace App1
 
         private void ConfigureServices(IServiceCollection services)
         {
-            var connStr = "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=postgres;";
+            var connStr = "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=admin;";
             services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(connStr));
             services.AddScoped<AuthService>();

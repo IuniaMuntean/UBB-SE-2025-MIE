@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\App1",
-    "\\App1\\Toma",
-    "\\App1\\Toma\\Models",
-    "\\App1\\Toma\\Services"
+    ""
   ],
-  "SelectedNode": "\\App1\\Toma\\Services\\ResourceServices.cs",
+  "SelectedNode": "\\App1.sln",
   "PreviewInSolutionExplorer": false
 }

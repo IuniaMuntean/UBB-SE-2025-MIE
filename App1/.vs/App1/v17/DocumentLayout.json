@@ -1,45 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\",
+  "WorkspaceRootPath": "D:\\Truck_app2\\App1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\geo\\deliveryinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:geo\\deliveryinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\geo\\deliveryinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:geo\\deliveryinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\razvan\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\service\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\iunia\u002Bfabi\\service\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\service\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\.iunia\\ubb-se-2025-mie\\app1\\iunia\u002Bfabi\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\vlad\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\dbsync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:sql scripts\\scripts.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\geo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:geo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\data\\citydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\graphview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\geo\\deliveryinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:geo\\deliveryinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\geo\\deliveryinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:geo\\deliveryinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:vlad\\vladwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:razvan\\views\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|d:\\truck_app2\\app1\\iunia\u002Bfabi\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40353522-AD49-4E14-9723-01DC6760EC02}|App1.csproj|solutionrelative:iunia\u002Bfabi\\model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,137 +94,269 @@
       "DocumentGroups": [
         {
           "DockedWidth": 256,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeliveryInfo.xaml",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Geo\\DeliveryInfo.xaml",
-              "RelativeDocumentMoniker": "Geo\\DeliveryInfo.xaml",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Geo\\DeliveryInfo.xaml",
-              "RelativeToolTip": "Geo\\DeliveryInfo.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-17T14:21:15.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeliveryInfo.xaml.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Geo\\DeliveryInfo.xaml.cs",
-              "RelativeDocumentMoniker": "Geo\\DeliveryInfo.xaml.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Geo\\DeliveryInfo.xaml.cs",
-              "RelativeToolTip": "Geo\\DeliveryInfo.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:14:46.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VladWindow.xaml.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Vlad\\VladWindow.xaml.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Vlad\\VladWindow.xaml.cs",
-              "RelativeToolTip": "Vlad\\VladWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:04:50.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Razvan\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Razvan\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:00:37.799Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CityDBContext.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABIAAAAAAAAAA==",
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Razvan\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Razvan\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:54:38.026Z",
+              "WhenOpened": "2025-05-15T19:46:57.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\DBContext.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\Data\\DBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABQAAAAAAAAAA==",
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "Razvan\\Views\\RegisterPage.xaml",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "Razvan\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T19:46:52.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Razvan\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Razvan\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwB8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:29:30.46Z",
+              "WhenOpened": "2025-05-15T19:46:48.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Razvan\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Razvan\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T19:46:43.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Razvan\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Services\\AuthService.cs",
+              "RelativeToolTip": "Razvan\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:46:34.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Vlad\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Vlad\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Vlad\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Vlad\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBAAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:46:21.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Dashboard.xaml.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
-              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Title": "DBSync.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\SQL Scripts\\DBSync.cs",
+              "RelativeDocumentMoniker": "SQL Scripts\\DBSync.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\SQL Scripts\\DBSync.cs",
+              "RelativeToolTip": "SQL Scripts\\DBSync.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:32:54.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:43:02.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "GraphService.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
               "RelativeDocumentMoniker": "Iunia\u002BFabi\\Service\\GraphService.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Service\\GraphService.cs",
               "RelativeToolTip": "Iunia\u002BFabi\\Service\\GraphService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAASwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T12:30:18.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "City.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Model\\City.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Model\\City.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\Model\\City.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\Model\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:42:45.927Z",
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "Scripts.sql",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\SQL Scripts\\Scripts.sql",
+              "RelativeDocumentMoniker": "SQL Scripts\\Scripts.sql",
+              "ToolTip": "D:\\Truck_app2\\App1\\SQL Scripts\\Scripts.sql",
+              "RelativeToolTip": "SQL Scripts\\Scripts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T19:47:10.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GraphView.xaml.cs",
-              "DocumentMoniker": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
-              "RelativeDocumentMoniker": "Iunia\u002BFabi\\GraphView.xaml.cs",
-              "ToolTip": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
-              "RelativeToolTip": "Iunia\u002BFabi\\GraphView.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAiwDUAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Razvan\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Razvan\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:37:50.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T19:47:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Geo\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Geo\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Geo\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Geo\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wBIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:46:06.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:45:43.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VladWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Vlad\\VladWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Vlad\\VladWindow.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Vlad\\VladWindow.xaml.cs",
+              "RelativeToolTip": "Vlad\\VladWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:04:50.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Razvan\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Razvan\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:00:37.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CityDBContext.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Data\\CityDBContext.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Data\\CityDBContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBoAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:54:38.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Data\\DBContext.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Data\\DBContext.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Data\\DBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBkAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:29:30.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Razvan\\Views\\Dashboard.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Razvan\\Views\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Razvan\\Views\\Dashboard.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:32:54.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Model\\City.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\Model\\City.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\Model\\City.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\Model\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:42:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GraphView.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
+              "RelativeDocumentMoniker": "Iunia\u002BFabi\\GraphView.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Iunia\u002BFabi\\GraphView.xaml.cs",
+              "RelativeToolTip": "Iunia\u002BFabi\\GraphView.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:37:50.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeliveryInfo.xaml.cs",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Geo\\DeliveryInfo.xaml.cs",
+              "RelativeDocumentMoniker": "Geo\\DeliveryInfo.xaml.cs",
+              "ToolTip": "D:\\Truck_app2\\App1\\Geo\\DeliveryInfo.xaml.cs",
+              "RelativeToolTip": "Geo\\DeliveryInfo.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T14:14:46.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeliveryInfo.xaml",
+              "DocumentMoniker": "D:\\Truck_app2\\App1\\Geo\\DeliveryInfo.xaml",
+              "RelativeDocumentMoniker": "Geo\\DeliveryInfo.xaml",
+              "ToolTip": "D:\\Truck_app2\\App1\\Geo\\DeliveryInfo.xaml",
+              "RelativeToolTip": "Geo\\DeliveryInfo.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T14:21:15.042Z"
             }
           ]
         }

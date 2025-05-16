@@ -14,7 +14,7 @@ namespace App1.Vlad.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=postgres");
+            optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=admin");
         }
     }
 }

@@ -29,13 +29,13 @@ namespace App1.SQL_Scripts
                                    "Port=5432;" +
                                    "Database=truck-company;" +
                                    "Username=postgres;" +
-                                   "Password=postgres;";
+                                   "Password=admin;";
 
         private static string connectionStringIunia2 = "Host=localhost;" +
                                    "Port=5432;" +
                                    "Database=postgres;" +
                                    "Username=postgres;" +
-                                   "Password=postgres;";
+                                   "Password=admin;";
 
         private static string connectionString = connectionStringIunia2;
 
@@ -47,7 +47,7 @@ namespace App1.SQL_Scripts
             string sqlScript = File.ReadAllText("" +
                 //"C:\\Users\\razva\\Desktop\\Github repos\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
                 //"D:\\FACULTA\\SEM VI\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
-                "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\SQL Scripts\\Scripts.sql");
+                "D:\\Truck_app2\\App1\\SQL Scripts\\Scripts.sql");
 
             string[] createTableQueries = sqlScript.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries);
 

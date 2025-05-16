@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj": {}
+    "D:\\Truck_app2\\App1\\App1.csproj": {}
   },
   "projects": {
-    "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj": {
+    "D:\\Truck_app2\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj",
+        "projectUniqueName": "D:\\Truck_app2\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\App1.csproj",
-        "packagesPath": "C:\\Users\\Iunia\\.nuget\\packages\\",
-        "outputPath": "D:\\.IUNIA\\UBB-SE-2025-MIE\\App1\\obj\\",
+        "projectPath": "D:\\Truck_app2\\App1\\App1.csproj",
+        "packagesPath": "C:\\Users\\Şerife Hale ÖZKAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Truck_app2\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Iunia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Şerife Hale ÖZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows10.0.19041": {
@@ -95,27 +93,27 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
@@ -123,15 +121,15 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[8.0.14, 8.0.14]"
+              "version": "[8.0.15, 8.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -142,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300-preview.0.25177.5/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
